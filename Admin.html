@@ -1,0 +1,857 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Admin — Biblioteca</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet"/>
+<style>
+  :root {
+    --bg: #fafaf8; --surface: #ffffff; --border: #e8e6e1; --border-dark: #d0cdc6;
+    --text: #1a1916; --muted: #7a776f; --accent: #1a1916; --accent-soft: #f0ede8;
+    --danger: #c0392b; --danger-soft: #fdf0ee;
+    --success: #2d6a4f; --success-soft: #edf7f2;
+    --warn: #8b5e00;   --warn-soft: #fdf8ee;
+    --info: #1e4d8c;   --info-soft: #eef4fd;
+    --radius: 8px; --radius-lg: 12px;
+  }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { background:var(--bg); color:var(--text); font-family:'DM Sans',system-ui,sans-serif; font-size:14px; line-height:1.6; min-height:100vh; }
+  .shell { display:grid; grid-template-columns:220px 1fr; min-height:100vh; }
+
+  .sidebar { background:var(--surface); border-right:1px solid var(--border); padding:32px 0; position:sticky; top:0; height:100vh; display:flex; flex-direction:column; }
+  .sidebar-brand { padding:0 24px 28px; border-bottom:1px solid var(--border); }
+  .brand-mark { width:28px;height:28px;background:var(--accent);border-radius:6px;display:flex;align-items:center;justify-content:center;margin-bottom:12px; }
+  .brand-mark svg { width:14px;height:14px;stroke:#fff; }
+  .brand-name { font-size:13px;font-weight:500; }
+  .brand-sub  { font-size:11px;color:var(--muted);font-family:'DM Mono',monospace; }
+  .nav { padding:20px 0;flex:1; }
+  .nav-label { font-size:10px;font-weight:500;color:var(--muted);letter-spacing:.08em;text-transform:uppercase;padding:0 24px;margin-bottom:6px; }
+  .nav-item { display:flex;align-items:center;gap:10px;padding:9px 24px;cursor:pointer;color:var(--muted);font-size:13.5px;font-weight:400;border:none;background:none;width:100%;text-align:left;transition:all .15s;position:relative; }
+  .nav-item:hover { color:var(--text);background:var(--accent-soft); }
+  .nav-item.active { color:var(--text);font-weight:500; }
+  .nav-item.active::before { content:'';position:absolute;left:0;top:0;bottom:0;width:2px;background:var(--accent);border-radius:0 2px 2px 0; }
+  .nav-item svg { width:16px;height:16px;stroke:currentColor;flex-shrink:0; }
+  .nav-count { margin-left:auto;background:var(--accent-soft);color:var(--muted);font-size:11px;padding:1px 7px;border-radius:20px;font-family:'DM Mono',monospace; }
+  .nav-item.active .nav-count { background:var(--accent);color:#fff; }
+  .sidebar-footer { padding:16px 24px;border-top:1px solid var(--border); }
+  .status-dot { display:inline-flex;align-items:center;gap:6px;font-size:11.5px;color:var(--muted); }
+  .dot { width:6px;height:6px;border-radius:50%;background:#aaa;flex-shrink:0; }
+  .dot.ok  { background:#4ade80; }
+  .dot.err { background:var(--danger); }
+  .sidebar-link { display:block;margin-top:10px;font-size:11.5px;color:var(--muted);text-decoration:none;padding:6px 0; }
+  .sidebar-link:hover { color:var(--text); }
+
+  .main { padding:40px 48px;max-width:1020px; }
+  .page-header { display:flex;align-items:flex-end;justify-content:space-between;margin-bottom:28px; }
+  .page-title { font-size:22px;font-weight:500; }
+  .page-sub   { font-size:13px;color:var(--muted);margin-top:2px; }
+
+  .stats-row { display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:24px; }
+  .stat-card { background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-lg);padding:16px 18px;cursor:pointer;transition:border-color .15s,background .15s; }
+  .stat-card:hover { border-color:var(--border-dark); }
+  .stat-card.selected { border-color:var(--accent);background:var(--accent-soft); }
+  .stat-label { font-size:11.5px;color:var(--muted);font-weight:500;letter-spacing:.03em;text-transform:uppercase;margin-bottom:6px; }
+  .stat-value { font-size:26px;font-weight:500;font-family:'DM Mono',monospace;line-height:1; }
+  .stat-card.s-active  .stat-value { color:var(--success); }
+  .stat-card.s-late    .stat-value { color:var(--danger); }
+  .stat-card.s-done    .stat-value { color:var(--muted); }
+  .stat-card.s-total   .stat-value { color:var(--text); }
+
+  .toolbar { display:flex;gap:10px;margin-bottom:18px;align-items:center; }
+  .search-wrap { flex:1;position:relative; }
+  .search-wrap svg { position:absolute;left:12px;top:50%;transform:translateY(-50%);width:14px;height:14px;stroke:var(--muted);pointer-events:none; }
+  .search-input { width:100%;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:9px 12px 9px 34px;font-size:13.5px;font-family:inherit;color:var(--text);outline:none;transition:border-color .15s; }
+  .search-input:focus { border-color:var(--border-dark); }
+  .search-input::placeholder { color:var(--muted); }
+
+  .btn { border:1px solid var(--border);background:var(--surface);color:var(--text);padding:9px 16px;border-radius:var(--radius);font-family:inherit;font-size:13.5px;cursor:pointer;display:inline-flex;align-items:center;gap:6px;font-weight:400;transition:all .15s;white-space:nowrap; }
+  .btn:hover { background:var(--accent-soft);border-color:var(--border-dark); }
+  .btn svg { width:14px;height:14px;stroke:currentColor; }
+  .btn-primary { background:var(--accent);color:#fff;border-color:var(--accent); }
+  .btn-primary:hover { opacity:.88;background:var(--accent); }
+  .btn-danger { background:var(--danger-soft);color:var(--danger);border-color:transparent; }
+  .btn-danger:hover { background:var(--danger);color:#fff; }
+  .btn-success { background:var(--success-soft);color:var(--success);border-color:transparent; }
+  .btn-success:hover { background:var(--success);color:#fff; }
+  .btn-warn { background:var(--warn-soft);color:var(--warn);border-color:transparent; }
+  .btn-warn:hover { background:var(--warn);color:#fff; }
+  .btn-ghost { border-color:transparent;background:transparent;color:var(--muted);padding:7px 10px; }
+  .btn-ghost:hover { color:var(--text);background:var(--accent-soft);border-color:transparent; }
+  .btn-sm { padding:6px 12px;font-size:12.5px; }
+
+  .table-wrap { background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-lg);overflow:hidden; }
+  table { width:100%;border-collapse:collapse; }
+  thead { background:var(--bg); }
+  th { text-align:left;padding:11px 16px;font-size:11.5px;font-weight:500;color:var(--muted);letter-spacing:.04em;text-transform:uppercase;border-bottom:1px solid var(--border); }
+  td { padding:13px 16px;font-size:13.5px;border-bottom:1px solid var(--border);vertical-align:middle; }
+  tr:last-child td { border-bottom:none; }
+  tr:hover td { background:var(--bg); }
+  .col-actions { display:flex;gap:6px;align-items:center; }
+
+  .badge { display:inline-flex;align-items:center;gap:5px;font-size:11.5px;padding:3px 9px;border-radius:20px;font-weight:500; }
+  .badge-ok   { background:var(--success-soft);color:var(--success); }
+  .badge-late { background:var(--danger-soft); color:var(--danger); }
+  .badge-done { background:var(--accent-soft); color:var(--muted); }
+  .badge-dot  { width:5px;height:5px;border-radius:50%;background:currentColor; }
+
+  /* Indicador de discrepancia entre BD y fecha real */
+  .disc-icon { display:inline-flex;align-items:center;gap:4px;font-size:11px;color:var(--warn);margin-left:6px;cursor:help; }
+  .disc-icon svg { width:12px;height:12px;stroke:currentColor; }
+
+  .days-chip { font-size:11px;font-family:'DM Mono',monospace;padding:2px 7px;border-radius:4px; }
+  .days-chip.ok   { background:var(--success-soft);color:var(--success); }
+  .days-chip.warn { background:var(--warn-soft);color:var(--warn); }
+  .days-chip.late { background:var(--danger-soft);color:var(--danger); }
+  .days-chip.done { background:var(--accent-soft);color:var(--muted); }
+
+  .empty { text-align:center;padding:48px 24px;color:var(--muted); }
+  .empty svg { width:28px;height:28px;stroke:var(--border-dark);margin:0 auto 12px;display:block; }
+  .empty p { font-size:13px; }
+
+  .toast-area { position:fixed;bottom:24px;right:24px;display:flex;flex-direction:column;gap:8px;z-index:999; }
+  .toast { background:var(--accent);color:#fff;padding:11px 18px;border-radius:var(--radius);font-size:13px;opacity:0;transform:translateY(8px);transition:all .25s;pointer-events:none; }
+  .toast.show { opacity:1;transform:translateY(0); }
+  .toast.error   { background:var(--danger); }
+  .toast.success { background:#2d6a4f; }
+
+  .modal-backdrop { position:fixed;inset:0;background:rgba(26,25,22,.35);backdrop-filter:blur(2px);z-index:100;display:flex;align-items:center;justify-content:center;opacity:0;pointer-events:none;transition:opacity .2s; }
+  .modal-backdrop.open { opacity:1;pointer-events:all; }
+  .modal { background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-lg);padding:28px;width:100%;max-width:460px;transform:translateY(8px);transition:transform .2s; }
+  .modal-backdrop.open .modal { transform:translateY(0); }
+  .modal-header { display:flex;align-items:center;justify-content:space-between;margin-bottom:22px; }
+  .modal-title  { font-size:15px;font-weight:500; }
+  .modal-close { width:28px;height:28px;border:none;background:none;cursor:pointer;color:var(--muted);display:flex;align-items:center;justify-content:center;border-radius:6px;transition:all .15s; }
+  .modal-close:hover { background:var(--accent-soft);color:var(--text); }
+  .modal-close svg { width:16px;height:16px;stroke:currentColor; }
+  .form-grid { display:flex;flex-direction:column;gap:14px; }
+  .field label { display:block;font-size:11.5px;font-weight:500;color:var(--muted);letter-spacing:.04em;text-transform:uppercase;margin-bottom:5px; }
+  .field input, .field select, .field textarea { width:100%;background:var(--bg);border:1px solid var(--border);border-radius:var(--radius);padding:9px 12px;font-size:13.5px;font-family:inherit;color:var(--text);outline:none;transition:border-color .15s; }
+  .field input:focus, .field select:focus { border-color:var(--border-dark); }
+  .field input::placeholder { color:var(--muted); }
+  .form-2col { display:grid;grid-template-columns:1fr 1fr;gap:14px; }
+  .modal-footer { display:flex;gap:8px;justify-content:flex-end;margin-top:24px;padding-top:20px;border-top:1px solid var(--border); }
+
+  .section { display:none; }
+  .section.active { display:block; }
+  .book-cell { display:flex;flex-direction:column;gap:1px; }
+  .book-cell .sub { font-size:11.5px;color:var(--muted); }
+
+  /* Alerta de discrepancias */
+  .alert-banner {
+    display:none; align-items:center; gap:10px; padding:12px 16px;
+    background:var(--warn-soft); border:1px solid #e6c57a; border-radius:var(--radius);
+    margin-bottom:16px; font-size:13px; color:var(--warn);
+  }
+  .alert-banner.show { display:flex; }
+  .alert-banner svg { width:16px;height:16px;stroke:currentColor;flex-shrink:0; }
+
+  @media(max-width:768px) {
+    .shell { grid-template-columns:1fr; }
+    .sidebar { height:auto;position:static;flex-direction:row;flex-wrap:wrap;padding:16px; }
+    .sidebar-brand { padding:0 16px 0 0;border:none; }
+    .nav { padding:0;display:flex; }
+    .nav-label { display:none; }
+    .nav-item { padding:8px 12px;font-size:12px; }
+    .main { padding:20px 16px; }
+    .stats-row { grid-template-columns:1fr 1fr; }
+  }
+</style>
+</head>
+<body>
+<div class="shell">
+
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <div class="sidebar-brand">
+      <div class="brand-mark">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>
+        </svg>
+      </div>
+      <div class="brand-name">Biblioteca</div>
+      <div class="brand-sub">Panel de Administración</div>
+    </div>
+    <nav class="nav">
+      <div class="nav-label">Módulos</div>
+      <button class="nav-item active" onclick="setTab('libros',this)">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+        Libros<span class="nav-count" id="cnt-libros">0</span>
+      </button>
+      <button class="nav-item" onclick="setTab('usuarios',this)">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 3.58-7 8-7s8 3 8 7"/></svg>
+        Usuarios<span class="nav-count" id="cnt-usuarios">0</span>
+      </button>
+      <button class="nav-item" onclick="setTab('prestamos',this)">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>
+        Préstamos<span class="nav-count" id="cnt-prestamos">0</span>
+      </button>
+    </nav>
+    <div class="sidebar-footer">
+      <div class="status-dot">
+        <div class="dot" id="conn-dot"></div>
+        <span id="conn-label">Conectando…</span>
+      </div>
+      <a href="/" class="sidebar-link">← Ver catálogo público</a>
+    </div>
+  </aside>
+
+  <!-- Main -->
+  <main class="main">
+
+    <!-- ══ LIBROS ══ -->
+    <section class="section active" id="tab-libros">
+      <div class="page-header">
+        <div><div class="page-title">Libros</div><div class="page-sub">Catálogo de la biblioteca</div></div>
+        <button class="btn btn-primary" onclick="openModal('libro')">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+          Agregar libro
+        </button>
+      </div>
+      <div class="toolbar">
+        <div class="search-wrap">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5" stroke-linecap="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          <input class="search-input" id="search-libros" placeholder="Buscar por título, autor o ISBN…" oninput="filtrarLibros()"/>
+        </div>
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Título</th><th>Autor</th><th>ISBN</th><th>Género</th><th>Año</th><th>Copias</th><th></th></tr></thead>
+          <tbody id="tabla-libros"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- ══ USUARIOS ══ -->
+    <section class="section" id="tab-usuarios">
+      <div class="page-header">
+        <div><div class="page-title">Usuarios</div><div class="page-sub">Miembros registrados</div></div>
+        <button class="btn btn-primary" onclick="openModal('usuario')">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+          Nuevo usuario
+        </button>
+      </div>
+      <div class="toolbar">
+        <div class="search-wrap">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5" stroke-linecap="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          <input class="search-input" id="search-usuarios" placeholder="Buscar por nombre o correo…" oninput="filtrarUsuarios()"/>
+        </div>
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Nombre</th><th>Correo</th><th>Teléfono</th><th></th></tr></thead>
+          <tbody id="tabla-usuarios"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- ══ PRÉSTAMOS ══ -->
+    <section class="section" id="tab-prestamos">
+      <div class="page-header">
+        <div><div class="page-title">Préstamos</div><div class="page-sub">Control de circulación — estado calculado en tiempo real</div></div>
+        <div style="display:flex;gap:8px">
+          <button class="btn btn-warn" id="btn-sincronizar" onclick="sincronizarEstados()" style="display:none">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5" stroke-linecap="round"><polyline points="23 4 23 10 17 10"/><polyline points="1 20 1 14 7 14"/><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/></svg>
+            Sincronizar estados con BD
+          </button>
+          <button class="btn btn-primary" onclick="openModal('prestamo')">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+            Nuevo préstamo
+          </button>
+        </div>
+      </div>
+
+      <!-- Alerta de discrepancias -->
+      <div class="alert-banner" id="alerta-disc">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5" stroke-linecap="round"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+        <span id="alerta-disc-msg"></span>
+        — Pulsa <strong style="margin:0 4px">"Sincronizar estados"</strong> para corregirlos en MongoDB.
+      </div>
+
+      <div class="stats-row">
+        <div class="stat-card s-total selected" id="stat-todos" onclick="filtrarPrestamos('todos')">
+          <div class="stat-label">Total</div><div class="stat-value" id="stat-v-todos">0</div>
+        </div>
+        <div class="stat-card s-active" id="stat-activos" onclick="filtrarPrestamos('activos')">
+          <div class="stat-label">Activos</div><div class="stat-value" id="stat-v-activos">0</div>
+        </div>
+        <div class="stat-card s-late" id="stat-atrasados" onclick="filtrarPrestamos('atrasados')">
+          <div class="stat-label">Atrasados</div><div class="stat-value" id="stat-v-atrasados">0</div>
+        </div>
+        <div class="stat-card s-done" id="stat-devueltos" onclick="filtrarPrestamos('devueltos')">
+          <div class="stat-label">Devueltos</div><div class="stat-value" id="stat-v-devueltos">0</div>
+        </div>
+      </div>
+
+      <div class="toolbar">
+        <div class="search-wrap">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5" stroke-linecap="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          <input class="search-input" id="search-prestamos" placeholder="Buscar por libro o usuario…" oninput="buscarPrestamos()"/>
+        </div>
+      </div>
+
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Libro</th><th>Usuario</th><th>Préstamo</th><th>Devolución</th>
+              <th>Días</th><th>Estado (tiempo real)</th><th></th>
+            </tr>
+          </thead>
+          <tbody id="tabla-prestamos"></tbody>
+        </table>
+      </div>
+    </section>
+
+  </main>
+</div>
+
+<!-- Modal Libro -->
+<div class="modal-backdrop" id="modal-libro">
+  <div class="modal">
+    <div class="modal-header">
+      <div class="modal-title" id="modal-libro-title">Agregar libro</div>
+      <button class="modal-close" onclick="closeModal('libro')"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.5" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></button>
+    </div>
+    <div class="form-grid">
+      <input type="hidden" id="lib-id"/>
+      <div class="field"><label>Título</label><input type="text" id="lib-titulo" placeholder="Título del libro"/></div>
+      <div class="field"><label>Autor</label><input type="text" id="lib-autor" placeholder="Nombre del autor"/></div>
+      <div class="form-2col">
+        <div class="field"><label>ISBN</label><input type="text" id="lib-isbn" placeholder="978-…"/></div>
+        <div class="field"><label>Año</label><input type="number" id="lib-anio" placeholder="2024"/></div>
+      </div>
+      <div class="form-2col">
+        <div class="field"><label>Género</label><input type="text" id="lib-genero" placeholder="Ficción, Ciencia…"/></div>
+        <div class="field"><label>Ejemplares</label><input type="number" id="lib-copias" placeholder="1" min="0"/></div>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <button class="btn" onclick="closeModal('libro')">Cancelar</button>
+      <button class="btn btn-primary" onclick="guardarLibro()">Guardar</button>
+    </div>
+  </div>
+</div>
+
+<!-- Modal Usuario -->
+<div class="modal-backdrop" id="modal-usuario">
+  <div class="modal">
+    <div class="modal-header">
+      <div class="modal-title" id="modal-usuario-title">Nuevo usuario</div>
+      <button class="modal-close" onclick="closeModal('usuario')"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.5" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></button>
+    </div>
+    <div class="form-grid">
+      <input type="hidden" id="usr-id"/>
+      <div class="field"><label>Nombre completo</label><input type="text" id="usr-nombre" placeholder="Nombre y apellido"/></div>
+      <div class="field"><label>Correo electrónico</label><input type="email" id="usr-email" placeholder="correo@ejemplo.com"/></div>
+      <div class="field"><label>Teléfono</label><input type="text" id="usr-tel" placeholder="+52 81 0000 0000"/></div>
+    </div>
+    <div class="modal-footer">
+      <button class="btn" onclick="closeModal('usuario')">Cancelar</button>
+      <button class="btn btn-primary" onclick="guardarUsuario()">Guardar</button>
+    </div>
+  </div>
+</div>
+
+<!-- Modal Préstamo -->
+<div class="modal-backdrop" id="modal-prestamo">
+  <div class="modal">
+    <div class="modal-header">
+      <div class="modal-title">Nuevo préstamo</div>
+      <button class="modal-close" onclick="closeModal('prestamo')"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.5" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></button>
+    </div>
+    <div class="form-grid">
+      <div class="field"><label>Libro</label>
+        <select id="prs-libro"><option value="">Selecciona un libro…</option></select>
+      </div>
+      <div class="field"><label>Usuario</label>
+        <select id="prs-usuario"><option value="">Selecciona un usuario…</option></select>
+      </div>
+      <div class="form-2col">
+        <div class="field"><label>Fecha de préstamo</label><input type="date" id="prs-fecha"/></div>
+        <div class="field"><label>Fecha de devolución</label><input type="date" id="prs-devolucion"/></div>
+      </div>
+      <div class="field"><label>Notas</label><input type="text" id="prs-notas" placeholder="Condición, observaciones…"/></div>
+    </div>
+    <div class="modal-footer">
+      <button class="btn" onclick="closeModal('prestamo')">Cancelar</button>
+      <button class="btn btn-primary" onclick="guardarPrestamo()">Registrar préstamo</button>
+    </div>
+  </div>
+</div>
+
+<!-- Modal Confirmar -->
+<div class="modal-backdrop" id="modal-confirm">
+  <div class="modal" style="max-width:360px">
+    <div class="modal-header">
+      <div class="modal-title" id="confirm-title">Confirmar</div>
+      <button class="modal-close" onclick="closeModal('confirm')"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.5" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></button>
+    </div>
+    <p id="confirm-msg" style="font-size:13.5px;color:var(--muted);line-height:1.6"></p>
+    <div class="modal-footer">
+      <button class="btn" onclick="closeModal('confirm')">Cancelar</button>
+      <button class="btn" id="confirm-action-btn">Confirmar</button>
+    </div>
+  </div>
+</div>
+
+<div class="toast-area" id="toast-area"></div>
+
+<script>
+const API = 'http://localhost:3000/api';
+let librosData = [], usuariosData = [], prestamosData = [];
+let filtroActual = 'todos';
+
+// ── Tabs ──
+function setTab(tab, btn) {
+  document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+  document.querySelectorAll('.nav-item').forEach(b => b.classList.remove('active'));
+  document.getElementById('tab-' + tab).classList.add('active');
+  btn.classList.add('active');
+  if (tab === 'libros')    cargarLibros();
+  if (tab === 'usuarios')  cargarUsuarios();
+  if (tab === 'prestamos') cargarPrestamos();
+}
+
+// ── Modal ──
+function openModal(name, data) {
+  document.getElementById('modal-' + name).classList.add('open');
+  if (name === 'libro') {
+    document.getElementById('lib-id').value     = data?._id || '';
+    document.getElementById('lib-titulo').value = data?.titulo || '';
+    document.getElementById('lib-autor').value  = data?.autor  || '';
+    document.getElementById('lib-isbn').value   = data?.isbn   || '';
+    document.getElementById('lib-anio').value   = data?.añoPublicacion || '';
+    document.getElementById('lib-genero').value = data?.genero || '';
+    document.getElementById('lib-copias').value = data?.ejemplaresDisponibles ?? '';
+    document.getElementById('modal-libro-title').textContent = data ? 'Editar libro' : 'Agregar libro';
+  }
+  if (name === 'usuario') {
+    document.getElementById('usr-id').value     = data?._id || '';
+    document.getElementById('usr-nombre').value = data?.nombre   || '';
+    document.getElementById('usr-email').value  = data?.email    || '';
+    document.getElementById('usr-tel').value    = data?.telefono || '';
+    document.getElementById('modal-usuario-title').textContent = data ? 'Editar usuario' : 'Nuevo usuario';
+  }
+  if (name === 'prestamo') {
+    poblarSelectores();
+    const hoy = new Date().toISOString().split('T')[0];
+    const dev  = new Date(Date.now() + 14*864e5).toISOString().split('T')[0];
+    document.getElementById('prs-fecha').value      = hoy;
+    document.getElementById('prs-devolucion').value = dev;
+    document.getElementById('prs-libro').value      = '';
+    document.getElementById('prs-usuario').value    = '';
+    document.getElementById('prs-notas').value      = '';
+  }
+}
+function closeModal(name) {
+  document.getElementById('modal-' + name).classList.remove('open');
+}
+document.querySelectorAll('.modal-backdrop').forEach(bd =>
+  bd.addEventListener('click', e => { if (e.target === bd) bd.classList.remove('open'); })
+);
+
+// ── Toast ──
+function toast(msg, type = 'default') {
+  const area = document.getElementById('toast-area');
+  const el = document.createElement('div');
+  el.className = 'toast ' + (type === 'error' ? 'error' : type === 'success' ? 'success' : '');
+  el.textContent = msg;
+  area.appendChild(el);
+  requestAnimationFrame(() => el.classList.add('show'));
+  setTimeout(() => { el.classList.remove('show'); setTimeout(() => el.remove(), 300); }, 3000);
+}
+
+// ── Confirm ──
+function confirmAction(title, msg, btnLabel, btnClass, action) {
+  document.getElementById('confirm-title').textContent = title;
+  document.getElementById('confirm-msg').textContent   = msg;
+  const btn = document.getElementById('confirm-action-btn');
+  btn.textContent = btnLabel;
+  btn.className   = 'btn ' + btnClass;
+  btn.onclick = () => { closeModal('confirm'); action(); };
+  document.getElementById('modal-confirm').classList.add('open');
+}
+
+// ── Conexión ──
+async function checkConn() {
+  const dot = document.getElementById('conn-dot');
+  const lbl = document.getElementById('conn-label');
+  try {
+    const r = await fetch(`${API}/libros?limit=1`);
+    if (r.ok) { dot.className = 'dot ok'; lbl.textContent = 'Conectado'; }
+    else throw new Error();
+  } catch { dot.className = 'dot err'; lbl.textContent = 'Sin conexión'; }
+}
+
+function esc(str) {
+  if (!str) return '';
+  return String(str).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+function initials(name) {
+  if (!name) return '?';
+  return name.split(' ').slice(0,2).map(w => w[0]).join('').toUpperCase();
+}
+
+// ════ LIBROS ════
+function renderLibros(data) {
+  const tb = document.getElementById('tabla-libros');
+  if (!data.length) {
+    tb.innerHTML = `<tr><td colspan="7"><div class="empty">
+      <svg viewBox="0 0 24 24" fill="none" stroke-width="1.2" stroke-linecap="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+      <p>Sin libros registrados</p></div></td></tr>`;
+    return;
+  }
+  tb.innerHTML = data.map(l => `
+    <tr>
+      <td><strong style="font-weight:500">${esc(l.titulo)}</strong></td>
+      <td style="color:var(--muted)">${esc(l.autor)}</td>
+      <td><span style="font-family:'DM Mono',monospace;font-size:12px;color:var(--muted)">${esc(l.isbn)}</span></td>
+      <td style="color:var(--muted)">${esc(l.genero || '—')}</td>
+      <td style="color:var(--muted)">${l.añoPublicacion || '—'}</td>
+      <td style="color:var(--muted)">${l.ejemplaresDisponibles ?? '—'}</td>
+      <td><div class="col-actions">
+        <button class="btn btn-ghost btn-sm" title="Editar" onclick='editLibro(${JSON.stringify(l)})'>
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5" stroke-linecap="round"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/></svg>
+        </button>
+        <button class="btn btn-danger btn-sm" title="Eliminar" onclick="delLibro('${l._id}','${esc(l.titulo)}')">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5" stroke-linecap="round"><polyline points="3 6 5 6 21 6"/><path d="M19 6l-1 14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2L5 6"/><path d="M10 11v6M14 11v6"/><path d="M9 6V4a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v2"/></svg>
+        </button>
+      </div></td>
+    </tr>`).join('');
+}
+
+async function cargarLibros() {
+  try {
+    const r = await fetch(`${API}/libros?limit=1000`);
+    const d = await r.json();
+    librosData = d.datos || [];
+    document.getElementById('cnt-libros').textContent = librosData.length;
+    renderLibros(librosData);
+  } catch { renderLibros([]); }
+}
+function filtrarLibros() {
+  const q = document.getElementById('search-libros').value.toLowerCase();
+  renderLibros(librosData.filter(l =>
+    l.titulo?.toLowerCase().includes(q) || l.autor?.toLowerCase().includes(q) || l.isbn?.toLowerCase().includes(q)
+  ));
+}
+function editLibro(l) { openModal('libro', l); }
+async function guardarLibro() {
+  const id = document.getElementById('lib-id').value;
+  const datos = {
+    titulo: document.getElementById('lib-titulo').value.trim(),
+    autor:  document.getElementById('lib-autor').value.trim(),
+    isbn:   document.getElementById('lib-isbn').value.trim(),
+    genero: document.getElementById('lib-genero').value.trim(),
+    añoPublicacion: document.getElementById('lib-anio').value,
+    ejemplaresDisponibles: document.getElementById('lib-copias').value || undefined,
+  };
+  if (!datos.titulo || !datos.autor || !datos.isbn) { toast('Título, autor e ISBN son obligatorios', 'error'); return; }
+  try {
+    const r = await fetch(id ? `${API}/libros/${id}` : `${API}/libros`, {
+      method: id ? 'PUT' : 'POST',
+      headers: {'Content-Type':'application/json'},
+      body: JSON.stringify(datos)
+    });
+    if (r.ok) { toast(id ? 'Libro actualizado' : 'Libro agregado', 'success'); closeModal('libro'); cargarLibros(); }
+    else { const e = await r.json().catch(()=>({})); toast(e.mensaje || 'Error al guardar', 'error'); }
+  } catch { toast('Sin conexión con el servidor', 'error'); }
+}
+function delLibro(id, titulo) {
+  confirmAction('Eliminar libro', `¿Eliminar "${titulo}"? Esta acción no se puede deshacer.`, 'Eliminar', 'btn-danger', async () => {
+    try { await fetch(`${API}/libros/${id}`, {method:'DELETE'}); toast('Libro eliminado'); cargarLibros(); }
+    catch { toast('Error al eliminar', 'error'); }
+  });
+}
+
+// ════ USUARIOS ════
+function renderUsuarios(data) {
+  const tb = document.getElementById('tabla-usuarios');
+  if (!data.length) {
+    tb.innerHTML = `<tr><td colspan="4"><div class="empty">
+      <svg viewBox="0 0 24 24" fill="none" stroke-width="1.2" stroke-linecap="round"><circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 3.58-7 8-7s8 3 8 7"/></svg>
+      <p>Sin usuarios registrados</p></div></td></tr>`;
+    return;
+  }
+  tb.innerHTML = data.map(u => `
+    <tr>
+      <td><div style="display:flex;align-items:center;gap:10px">
+        <div style="width:30px;height:30px;border-radius:50%;background:var(--accent-soft);
+          display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:500;
+          color:var(--muted);flex-shrink:0">${initials(u.nombre)}</div>
+        <span style="font-weight:500">${esc(u.nombre)}</span>
+      </div></td>
+      <td style="color:var(--muted)">${esc(u.email)}</td>
+      <td style="color:var(--muted)">${esc(u.telefono || '—')}</td>
+      <td><div class="col-actions">
+        <button class="btn btn-ghost btn-sm" title="Editar" onclick='editUsuario(${JSON.stringify(u)})'>
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5" stroke-linecap="round"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/></svg>
+        </button>
+        <button class="btn btn-danger btn-sm" title="Eliminar" onclick="delUsuario('${u._id}','${esc(u.nombre)}')">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5" stroke-linecap="round"><polyline points="3 6 5 6 21 6"/><path d="M19 6l-1 14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2L5 6"/><path d="M10 11v6M14 11v6"/><path d="M9 6V4a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v2"/></svg>
+        </button>
+      </div></td>
+    </tr>`).join('');
+}
+async function cargarUsuarios() {
+  try {
+    const r = await fetch(`${API}/usuarios?limit=1000`);
+    const d = await r.json();
+    usuariosData = d.datos || [];
+    document.getElementById('cnt-usuarios').textContent = usuariosData.length;
+    renderUsuarios(usuariosData);
+  } catch { renderUsuarios([]); }
+}
+function filtrarUsuarios() {
+  const q = document.getElementById('search-usuarios').value.toLowerCase();
+  renderUsuarios(usuariosData.filter(u =>
+    u.nombre?.toLowerCase().includes(q) || u.email?.toLowerCase().includes(q)
+  ));
+}
+function editUsuario(u) { openModal('usuario', u); }
+async function guardarUsuario() {
+  const id = document.getElementById('usr-id').value;
+  const datos = {
+    nombre:   document.getElementById('usr-nombre').value.trim(),
+    email:    document.getElementById('usr-email').value.trim(),
+    telefono: document.getElementById('usr-tel').value.trim(),
+  };
+  if (!datos.nombre || !datos.email) { toast('Nombre y correo son obligatorios', 'error'); return; }
+  try {
+    const r = await fetch(id ? `${API}/usuarios/${id}` : `${API}/usuarios`, {
+      method: id ? 'PUT' : 'POST',
+      headers: {'Content-Type':'application/json'},
+      body: JSON.stringify(datos)
+    });
+    if (r.ok) { toast(id ? 'Usuario actualizado' : 'Usuario registrado', 'success'); closeModal('usuario'); cargarUsuarios(); }
+    else toast('Error al guardar', 'error');
+  } catch { toast('Sin conexión con el servidor', 'error'); }
+}
+function delUsuario(id, nombre) {
+  confirmAction('Eliminar usuario', `¿Eliminar a "${nombre}"?`, 'Eliminar', 'btn-danger', async () => {
+    try { await fetch(`${API}/usuarios/${id}`, {method:'DELETE'}); toast('Usuario eliminado'); cargarUsuarios(); }
+    catch { toast('Error al eliminar', 'error'); }
+  });
+}
+
+// ════ PRÉSTAMOS ════
+
+// ✅ FIX: calcularEstado usa fechaDevolucion (campo unificado) y calcula en tiempo real
+function calcularEstadoReal(p) {
+  if (p.estado === 'Devuelto') return 'Devuelto';
+  if (!p.fechaDevolucion) return 'Activo';
+  const hoy = new Date(); hoy.setHours(0,0,0,0);
+  const dev = new Date(p.fechaDevolucion); dev.setHours(0,0,0,0);
+  return hoy > dev ? 'Atrasado' : 'Activo';
+}
+
+function diasInfo(p) {
+  const estadoReal = calcularEstadoReal(p);
+  const hoy = new Date(); hoy.setHours(0,0,0,0);
+  if (estadoReal === 'Devuelto') return { label: 'Devuelto', cls: 'done' };
+  if (!p.fechaDevolucion) return { label: '—', cls: 'done' };
+  const dev  = new Date(p.fechaDevolucion); dev.setHours(0,0,0,0);
+  const diff = Math.round((dev - hoy) / 86400000);
+  if (diff < 0)   return { label: `${Math.abs(diff)}d atraso`, cls: 'late' };
+  if (diff === 0) return { label: 'Vence hoy', cls: 'warn' };
+  if (diff <= 3)  return { label: `${diff}d restantes`, cls: 'warn' };
+  return { label: `${diff}d restantes`, cls: 'ok' };
+}
+
+function renderPrestamos(data) {
+  const tb = document.getElementById('tabla-prestamos');
+  if (!data.length) {
+    const msgs = { todos:'Sin préstamos registrados', activos:'Sin préstamos activos', atrasados:'Sin préstamos atrasados', devueltos:'Sin devoluciones' };
+    tb.innerHTML = `<tr><td colspan="7"><div class="empty">
+      <svg viewBox="0 0 24 24" fill="none" stroke-width="1.2" stroke-linecap="round"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>
+      <p>${msgs[filtroActual]||'Sin resultados'}</p></div></td></tr>`;
+    return;
+  }
+  tb.innerHTML = data.map(p => {
+    // ✅ Estado calculado en tiempo real por el admin (ignora el campo estado de BD)
+    const estadoReal = calcularEstadoReal(p);
+    const d = diasInfo(p);
+
+    // ✅ Detectar discrepancia: si BD dice algo diferente al cálculo real
+    const hayDiscrepancia = p.estado !== estadoReal && p.estado !== 'Devuelto';
+    const discIcon = hayDiscrepancia
+      ? `<span class="disc-icon" title="BD dice '${p.estado}' pero la fecha indica '${estadoReal}'">
+           <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+           BD: ${p.estado}
+         </span>`
+      : '';
+
+    let badge;
+    if (estadoReal === 'Activo')    badge = `<span class="badge badge-ok"><span class="badge-dot"></span>Activo</span>`;
+    else if (estadoReal === 'Atrasado') badge = `<span class="badge badge-late"><span class="badge-dot"></span>Atrasado</span>`;
+    else badge = `<span class="badge badge-done"><span class="badge-dot"></span>Devuelto</span>`;
+
+    // ✅ FIX: campo correcto es fechaDevolucion
+    const fDev = p.fechaDevolucion ? new Date(p.fechaDevolucion).toLocaleDateString('es-MX') : '—';
+    const acciones = estadoReal !== 'Devuelto'
+      ? `<button class="btn btn-success btn-sm" title="Marcar como devuelto" onclick="marcarDevuelto('${p._id}')">
+           <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5" stroke-linecap="round"><polyline points="20 6 9 17 4 12"/></svg>
+           Devuelto
+         </button>`
+      : `<span style="font-size:12px;color:var(--muted)">Finalizado</span>`;
+
+    return `<tr>
+      <td><div class="book-cell">
+        <span style="font-weight:500">${p.libro ? esc(p.libro.titulo) : '<em style="color:var(--muted)">Eliminado</em>'}</span>
+        <span class="sub">${p.libro ? esc(p.libro.autor || '') : ''}</span>
+      </div></td>
+      <td><div style="display:flex;align-items:center;gap:8px">
+        <div style="width:26px;height:26px;border-radius:50%;background:var(--accent-soft);
+          display:flex;align-items:center;justify-content:center;font-size:10px;font-weight:500;
+          color:var(--muted);flex-shrink:0">${p.usuario ? initials(p.usuario.nombre) : '?'}</div>
+        <span style="color:var(--muted)">${p.usuario ? esc(p.usuario.nombre) : '<em>Inactivo</em>'}</span>
+      </div></td>
+      <td style="color:var(--muted)">${new Date(p.fechaPrestamo).toLocaleDateString('es-MX')}</td>
+      <td style="color:var(--muted)">${fDev}</td>
+      <td><span class="days-chip ${d.cls}">${d.label}</span></td>
+      <td>${badge}${discIcon}</td>
+      <td>${acciones}</td>
+    </tr>`;
+  }).join('');
+}
+
+function actualizarStats() {
+  const activos   = prestamosData.filter(p => calcularEstadoReal(p) === 'Activo').length;
+  const atrasados = prestamosData.filter(p => calcularEstadoReal(p) === 'Atrasado').length;
+  const devueltos = prestamosData.filter(p => calcularEstadoReal(p) === 'Devuelto').length;
+  document.getElementById('stat-v-todos').textContent     = prestamosData.length;
+  document.getElementById('stat-v-activos').textContent   = activos;
+  document.getElementById('stat-v-atrasados').textContent = atrasados;
+  document.getElementById('stat-v-devueltos').textContent = devueltos;
+  document.getElementById('cnt-prestamos').textContent    = prestamosData.length;
+
+  // ✅ Detectar discrepancias y mostrar alerta
+  const discrepancias = prestamosData.filter(p => p.estado !== calcularEstadoReal(p) && p.estado !== 'Devuelto');
+  const alertBanner = document.getElementById('alerta-disc');
+  const btnSync = document.getElementById('btn-sincronizar');
+  if (discrepancias.length > 0) {
+    alertBanner.classList.add('show');
+    document.getElementById('alerta-disc-msg').textContent =
+      `${discrepancias.length} préstamo(s) con estado incorrecto en MongoDB`;
+    btnSync.style.display = 'inline-flex';
+  } else {
+    alertBanner.classList.remove('show');
+    btnSync.style.display = 'none';
+  }
+}
+
+function aplicarFiltro() {
+  const q = document.getElementById('search-prestamos').value.toLowerCase();
+  let datos = prestamosData;
+  if (filtroActual !== 'todos') {
+    const map = { activos:'Activo', atrasados:'Atrasado', devueltos:'Devuelto' };
+    datos = datos.filter(p => calcularEstadoReal(p) === map[filtroActual]);
+  }
+  if (q) datos = datos.filter(p =>
+    p.libro?.titulo?.toLowerCase().includes(q) || p.usuario?.nombre?.toLowerCase().includes(q)
+  );
+  renderPrestamos(datos);
+}
+
+async function cargarPrestamos() {
+  try {
+    const r = await fetch(`${API}/prestamos`);
+    prestamosData = await r.json();
+    actualizarStats();
+    aplicarFiltro();
+  } catch { renderPrestamos([]); }
+}
+
+function filtrarPrestamos(filtro) {
+  filtroActual = filtro;
+  ['todos','activos','atrasados','devueltos'].forEach(f => {
+    document.getElementById('stat-' + f)?.classList.remove('selected');
+  });
+  document.getElementById('stat-' + filtro)?.classList.add('selected');
+  aplicarFiltro();
+}
+
+function buscarPrestamos() { aplicarFiltro(); }
+
+function poblarSelectores() {
+  const sl = document.getElementById('prs-libro');
+  const su = document.getElementById('prs-usuario');
+  sl.innerHTML = '<option value="">Selecciona un libro…</option>' +
+    librosData.map(l => `<option value="${l._id}">${esc(l.titulo)} — ${esc(l.autor)}</option>`).join('');
+  su.innerHTML = '<option value="">Selecciona un usuario…</option>' +
+    usuariosData.map(u => `<option value="${u._id}">${esc(u.nombre)} (${esc(u.email)})</option>`).join('');
+}
+
+async function guardarPrestamo() {
+  const libroId   = document.getElementById('prs-libro').value;
+  const usuarioId = document.getElementById('prs-usuario').value;
+  const fecha     = document.getElementById('prs-fecha').value;
+  const devol     = document.getElementById('prs-devolucion').value;
+  const notas     = document.getElementById('prs-notas').value.trim();
+  if (!libroId)   { toast('Selecciona un libro', 'error'); return; }
+  if (!usuarioId) { toast('Selecciona un usuario', 'error'); return; }
+  if (!fecha)     { toast('Indica la fecha de préstamo', 'error'); return; }
+  if (!devol)     { toast('Indica la fecha de devolución', 'error'); return; }
+  try {
+    const r = await fetch(`${API}/prestamos`, {
+      method: 'POST',
+      headers: {'Content-Type':'application/json'},
+      // ✅ FIX: campo correcto en el POST
+      body: JSON.stringify({ libro: libroId, usuario: usuarioId, fechaPrestamo: fecha, fechaDevolucion: devol, notas, estado: 'Activo' })
+    });
+    if (r.ok) { toast('Préstamo registrado', 'success'); closeModal('prestamo'); cargarPrestamos(); }
+    else { const e = await r.json().catch(()=>({})); toast(e.mensaje || 'Error al registrar', 'error'); }
+  } catch { toast('Sin conexión con el servidor', 'error'); }
+}
+
+async function marcarDevuelto(id) {
+  confirmAction('Marcar como devuelto', '¿Confirmar la devolución de este libro?', 'Confirmar devolución', 'btn-success', async () => {
+    try {
+      const r = await fetch(`${API}/prestamos/${id}`, {
+        method: 'PUT',
+        headers: {'Content-Type':'application/json'},
+        body: JSON.stringify({ estado: 'Devuelto', fechaDevolucionReal: new Date().toISOString() })
+      });
+      if (r.ok) { toast('Devolución registrada', 'success'); cargarPrestamos(); }
+      else toast('Error al actualizar', 'error');
+    } catch { toast('Sin conexión con el servidor', 'error'); }
+  });
+}
+
+// ✅ Sincronizar estados incorrectos en MongoDB
+async function sincronizarEstados() {
+  const discrepancias = prestamosData.filter(p => p.estado !== calcularEstadoReal(p) && p.estado !== 'Devuelto');
+  if (!discrepancias.length) { toast('No hay discrepancias', 'success'); return; }
+
+  confirmAction(
+    'Sincronizar estados',
+    `Se actualizarán ${discrepancias.length} préstamos en MongoDB para que el estado coincida con sus fechas reales.`,
+    'Sincronizar', 'btn-warn',
+    async () => {
+      let ok = 0, err = 0;
+      for (const p of discrepancias) {
+        try {
+          const estadoCorrecto = calcularEstadoReal(p);
+          const r = await fetch(`${API}/prestamos/${p._id}`, {
+            method: 'PUT',
+            headers: {'Content-Type':'application/json'},
+            body: JSON.stringify({ estado: estadoCorrecto })
+          });
+          if (r.ok) ok++; else err++;
+        } catch { err++; }
+      }
+      toast(`${ok} actualizados${err ? `, ${err} errores` : ''}`, err ? 'error' : 'success');
+      cargarPrestamos();
+    }
+  );
+}
+
+// Init
+checkConn();
+cargarLibros();
+cargarUsuarios();
+</script>
+</body>
+</html>
