@@ -40,7 +40,6 @@ async function poblarBaseDeDatos() {
         const librosInsertados = await Libro.insertMany(librosData);
         console.log(`📚 ${librosInsertados.length} libros creados.`);
 
-        // 120 Usuarios
         const usuariosData = [];
         for (let i = 0; i < 120; i++) {
             usuariosData.push({
@@ -54,7 +53,6 @@ async function poblarBaseDeDatos() {
         const usuariosInsertados = await Usuario.insertMany(usuariosData);
         console.log(`👤 ${usuariosInsertados.length} usuarios creados.`);
 
-        // ✅ FIX: Estado calculado en base a fechas reales (no aleatorio)
         const hoy = new Date();
         hoy.setHours(0, 0, 0, 0);
 
@@ -63,7 +61,6 @@ async function poblarBaseDeDatos() {
             const libro   = faker.helpers.arrayElement(librosInsertados);
             const usuario = faker.helpers.arrayElement(usuariosInsertados);
 
-            // ~40% préstamos pasados (posibles atrasados/devueltos), ~60% recientes (activos)
             const diasAtras = faker.number.int({ min: 1, max: 45 });
             const fechaPrestamo = new Date(hoy);
             fechaPrestamo.setDate(hoy.getDate() - diasAtras);
@@ -71,13 +68,12 @@ async function poblarBaseDeDatos() {
             const fechaDevolucion = new Date(fechaPrestamo);
             fechaDevolucion.setDate(fechaPrestamo.getDate() + 14); // 14 días de préstamo
 
-            // ✅ Estado calculado lógicamente:
             let estado;
             if (fechaDevolucion < hoy) {
-                // Ya venció — puede estar devuelto o atrasado
+
                 estado = faker.helpers.arrayElement(['Devuelto', 'Devuelto', 'Atrasado']); // 66% devuelto, 33% atrasado
             } else {
-                // Aún no vence → siempre Activo
+
                 estado = 'Activo';
             }
 
@@ -85,11 +81,11 @@ async function poblarBaseDeDatos() {
                 libro:          libro._id,
                 usuario:        usuario._id,
                 fechaPrestamo,
-                fechaDevolucion, // ✅ campo unificado
+                fechaDevolucion, 
                 estado
             };
 
-            // Si fue devuelto, agregar fecha real de devolución
+
             if (estado === 'Devuelto') {
                 const diasDespues = faker.number.int({ min: 1, max: 14 });
                 const devReal = new Date(fechaPrestamo);

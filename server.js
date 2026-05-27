@@ -19,9 +19,9 @@ app.use('/api/libros',    rutasLibros);
 app.use('/api/usuarios',  rutasUsuarios);
 app.use('/api/prestamos', rutasPrestamos);
 
-// Página pública
+
 app.get('/', (req, res) => res.sendFile(__dirname + '/index.html'));
-// Panel de administración
+
 app.get('/admin', (req, res) => res.sendFile(__dirname + '/admin.html'));
 
 const PORT = process.env.PORT || 3000;
