@@ -1,0 +1,1560 @@
+[{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c6159ab"
+  },
+  "nombre": "José Ceballos Gálvez",
+  "email": "Margarita_ZamoraFonseca@gmail.com",
+  "telefono": "988 363 403",
+  "direccion": "Quinta Maricarmen Limón Riojas, 3",
+  "fechaRegistro": {
+    "$date": "2026-01-02T07:43:22.643Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c6159ac"
+  },
+  "nombre": "Carlos Niño Alcalá",
+  "email": "Antonio_GalindoCintron@yahoo.com",
+  "telefono": "925.258.474",
+  "direccion": "Camino Rosa s/n.",
+  "fechaRegistro": {
+    "$date": "2025-04-28T02:58:30.741Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c6159ad"
+  },
+  "nombre": "Jorge Luis Verdugo Prieto",
+  "email": "JoseEduardo.CorreaBonilla@gmail.com",
+  "telefono": "917-782-509",
+  "direccion": "Municipio Mariana, 1",
+  "fechaRegistro": {
+    "$date": "2025-10-27T19:43:08.806Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c6159ae"
+  },
+  "nombre": "Ana Aguirre Tamez",
+  "email": "Ernesto59@yahoo.com",
+  "telefono": "953557473",
+  "direccion": "Mercado Juana, 4",
+  "fechaRegistro": {
+    "$date": "2025-06-22T20:37:40.144Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c6159af"
+  },
+  "nombre": "Alfredo Urrutia Anguiano",
+  "email": "JuanRamon86@hotmail.com",
+  "telefono": "988.828.709",
+  "direccion": "Bajada Marcos, 77",
+  "fechaRegistro": {
+    "$date": "2025-01-04T02:08:24.468Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c6159b0"
+  },
+  "nombre": "Sra. Eva Tamez Guardado",
+  "email": "Graciela_ZapataRuelas@yahoo.com",
+  "telefono": "999 187 879",
+  "direccion": "Bajada Elena Zamora Carrasco, 1",
+  "fechaRegistro": {
+    "$date": "2025-10-19T08:45:22.901Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c6159b1"
+  },
+  "nombre": "Sergi Godoy Caballero",
+  "email": "Luz.OchoaMaestas51@gmail.com",
+  "telefono": "902 996 953",
+  "direccion": "Subida Fernando 15",
+  "fechaRegistro": {
+    "$date": "2024-07-27T23:48:26.694Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c6159b2"
+  },
+  "nombre": "Sra. Rocío Salas Zepeda",
+  "email": "Martin97@gmail.com",
+  "telefono": "978.230.740",
+  "direccion": "Explanada Adriana 9",
+  "fechaRegistro": {
+    "$date": "2025-05-30T01:59:08.986Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c6159b3"
+  },
+  "nombre": "Hermenegildo Salinas Castro",
+  "email": "Angel50@hotmail.com",
+  "telefono": "974098326",
+  "direccion": "Vía Cecilia Toro Varela 78",
+  "fechaRegistro": {
+    "$date": "2026-04-16T19:17:19.110Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c6159b4"
+  },
+  "nombre": "Hernán Acuña Meraz",
+  "email": "Gregorio91@yahoo.com",
+  "telefono": "981-724-921",
+  "direccion": "Manzana Víctor Castro Tamayo, 66",
+  "fechaRegistro": {
+    "$date": "2024-06-19T10:24:55.671Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c6159b5"
+  },
+  "nombre": "Jordi Lucio Verduzco",
+  "email": "Diego_MelendezQuintana@hotmail.com",
+  "telefono": "967-004-373",
+  "direccion": "Calleja Vicente, 66",
+  "fechaRegistro": {
+    "$date": "2025-02-18T14:42:09.796Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c6159b6"
+  },
+  "nombre": "Ana María Gracia Villaseñor",
+  "email": "Nicolas_RolonQuezada50@hotmail.com",
+  "telefono": "936368119",
+  "direccion": "Urbanización Benito 8",
+  "fechaRegistro": {
+    "$date": "2024-08-18T07:46:14.828Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c6159b7"
+  },
+  "nombre": "Gloria Alarcón Vallejo",
+  "email": "Gabriel.VazquezLuna@hotmail.com",
+  "telefono": "954-803-730",
+  "direccion": "Aldea Magdalena Mesa Mena, 2",
+  "fechaRegistro": {
+    "$date": "2024-08-30T18:42:50.376Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c6159b8"
+  },
+  "nombre": "Francisca Navarrete Alejandro",
+  "email": "Ivan87@yahoo.com",
+  "telefono": "931-519-515",
+  "direccion": "Ferrocarril Rodrigo 22",
+  "fechaRegistro": {
+    "$date": "2025-07-05T15:53:12.061Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c6159b9"
+  },
+  "nombre": "Ramona Jáquez Luna",
+  "email": "Ana_AlanizAdorno58@yahoo.com",
+  "telefono": "932053050",
+  "direccion": "Senda Agustín 79",
+  "fechaRegistro": {
+    "$date": "2024-07-01T05:32:02.330Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c6159ba"
+  },
+  "nombre": "Pilar Aguayo Tamez",
+  "email": "Jesus_ToroRaya20@gmail.com",
+  "telefono": "973663802",
+  "direccion": "Urbanización Ernesto s/n.",
+  "fechaRegistro": {
+    "$date": "2025-01-02T12:35:58.105Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c6159bb"
+  },
+  "nombre": "Fernando Colón Soria",
+  "email": "Mario10@yahoo.com",
+  "telefono": "971492740",
+  "direccion": "Carretera Josefina, 13",
+  "fechaRegistro": {
+    "$date": "2025-06-23T22:09:45.080Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c6159bc"
+  },
+  "nombre": "Sr. Miguel Rivera Rosas",
+  "email": "Lilia_CasasCarbajal@yahoo.com",
+  "telefono": "931.691.188",
+  "direccion": "Lado Jordi s/n.",
+  "fechaRegistro": {
+    "$date": "2024-06-21T12:58:00.460Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c6159bd"
+  },
+  "nombre": "Verónica Serrano Vela",
+  "email": "AnaMaria_GaytanNazario@yahoo.com",
+  "telefono": "900 758 577",
+  "direccion": "Extrarradio María de los Ángeles Calvillo Figueroa 4",
+  "fechaRegistro": {
+    "$date": "2026-05-29T09:38:18.200Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c6159be"
+  },
+  "nombre": "Felipe Rascón Álvarez",
+  "email": "Sonia.HuertaNunez@gmail.com",
+  "telefono": "921666610",
+  "direccion": "Rampa María de los Ángeles 5",
+  "fechaRegistro": {
+    "$date": "2025-11-28T09:30:42.227Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c6159bf"
+  },
+  "nombre": "Juan Ramón Brito Orosco",
+  "email": "Julia_CeballosGastelum@gmail.com",
+  "telefono": "930.186.749",
+  "direccion": "Barranco Soledad, 71",
+  "fechaRegistro": {
+    "$date": "2024-10-21T03:46:05.354Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c6159c0"
+  },
+  "nombre": "María del Carmen Fuentes Razo",
+  "email": "Agustin.LiraEscamilla@yahoo.com",
+  "telefono": "908829761",
+  "direccion": "Entrada Sancho García Guerrero, 40",
+  "fechaRegistro": {
+    "$date": "2026-05-26T16:53:18.350Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c6159c1"
+  },
+  "nombre": "Carolina Lugo Fierro",
+  "email": "Daniel.TamayoVela92@hotmail.com",
+  "telefono": "912235084",
+  "direccion": "Calle Carles Ocasio Alcántar 6",
+  "fechaRegistro": {
+    "$date": "2024-08-27T14:11:14.085Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c6159c2"
+  },
+  "nombre": "Natalia Rojo Soliz",
+  "email": "Juana.ZaragozaConcepcion45@hotmail.com",
+  "telefono": "937779557",
+  "direccion": "Travesía Soledad Ocampo Angulo s/n.",
+  "fechaRegistro": {
+    "$date": "2025-08-15T23:37:59.212Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c6159c3"
+  },
+  "nombre": "Agustín Maya Marroquín",
+  "email": "Hernan92@yahoo.com",
+  "telefono": "940386363",
+  "direccion": "Vía Graciela Casillas Guajardo, 56",
+  "fechaRegistro": {
+    "$date": "2025-09-16T09:36:31.379Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c6159c4"
+  },
+  "nombre": "José Emilio Barraza Guerra",
+  "email": "Gerardo.LozadaAlanis@hotmail.com",
+  "telefono": "912881610",
+  "direccion": "Senda Guillermina Enríquez Ibarra s/n.",
+  "fechaRegistro": {
+    "$date": "2025-04-15T15:52:46.367Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c6159c5"
+  },
+  "nombre": "Sta. Diana Carrero Leiva",
+  "email": "Roser_PartidaMesa60@hotmail.com",
+  "telefono": "979 035 810",
+  "direccion": "Barranco Esperanza Medina Rojas, 75",
+  "fechaRegistro": {
+    "$date": "2025-07-03T10:22:09.186Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c6159c6"
+  },
+  "nombre": "Federico Echevarría Pedraza",
+  "email": "Daniela.GuardadoOjeda54@hotmail.com",
+  "telefono": "908720916",
+  "direccion": "Ramal Víctor 32",
+  "fechaRegistro": {
+    "$date": "2025-01-17T00:18:28.844Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c6159c7"
+  },
+  "nombre": "Francisca Niño Samaniego",
+  "email": "LuisMiguel_ValenciaJaimes@hotmail.com",
+  "telefono": "944-216-699",
+  "direccion": "Arroyo Carla Salas Gastélum 35",
+  "fechaRegistro": {
+    "$date": "2025-03-08T21:15:22.970Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c6159c8"
+  },
+  "nombre": "Laura Valdés Villa",
+  "email": "Gustavo4@gmail.com",
+  "telefono": "996959158",
+  "direccion": "Subida Ester Domínguez Orosco, 8",
+  "fechaRegistro": {
+    "$date": "2026-04-24T05:26:26.853Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c6159c9"
+  },
+  "nombre": "Ramona Tórrez Palomino",
+  "email": "Patricio82@gmail.com",
+  "telefono": "936-523-320",
+  "direccion": "Colonia Luz Baeza Roldán, 52",
+  "fechaRegistro": {
+    "$date": "2025-08-03T18:51:57.435Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c6159ca"
+  },
+  "nombre": "Arturo Becerra Casanova",
+  "email": "Arturo.QuezadaBarraza21@yahoo.com",
+  "telefono": "922.284.038",
+  "direccion": "Polígono Gustavo, 96",
+  "fechaRegistro": {
+    "$date": "2024-08-05T01:05:45.031Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c6159cb"
+  },
+  "nombre": "Maricarmen Rico Cantú",
+  "email": "Eloisa15@yahoo.com",
+  "telefono": "930.611.882",
+  "direccion": "Extrarradio Mayte Granados Ordóñez, 2",
+  "fechaRegistro": {
+    "$date": "2026-02-27T11:18:43.550Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c6159cc"
+  },
+  "nombre": "Rosario Carrasquillo Aguirre",
+  "email": "Hermenegildo55@hotmail.com",
+  "telefono": "978194975",
+  "direccion": "Ronda Pilar 70",
+  "fechaRegistro": {
+    "$date": "2025-05-03T21:19:02.132Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c6159cd"
+  },
+  "nombre": "Barbara Alba Colón",
+  "email": "Cecilia_VeraAviles67@hotmail.com",
+  "telefono": "988 014 858",
+  "direccion": "Aldea María Cristina 8",
+  "fechaRegistro": {
+    "$date": "2025-09-06T04:05:13.779Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c6159ce"
+  },
+  "nombre": "Iván Prado Carrión",
+  "email": "Alfredo62@yahoo.com",
+  "telefono": "973.371.276",
+  "direccion": "Subida Francisca Valdés Osorio, 8",
+  "fechaRegistro": {
+    "$date": "2024-10-08T04:52:02.213Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c6159cf"
+  },
+  "nombre": "Victoria Lomeli Gallardo",
+  "email": "Timoteo96@yahoo.com",
+  "telefono": "941 152 927",
+  "direccion": "Lugar María Elena Baca Brito s/n.",
+  "fechaRegistro": {
+    "$date": "2024-07-12T14:09:34.394Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c6159d0"
+  },
+  "nombre": "Julio César Ceja Gálvez",
+  "email": "Cristina15@gmail.com",
+  "telefono": "905-155-744",
+  "direccion": "Extrarradio Eva Acevedo Angulo 99",
+  "fechaRegistro": {
+    "$date": "2024-06-08T16:47:10.402Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c6159d1"
+  },
+  "nombre": "Inés Camarillo Ríos",
+  "email": "Eva_DuranZamudio33@yahoo.com",
+  "telefono": "987 821 574",
+  "direccion": "Barrio Daniela Galindo Mena, 7",
+  "fechaRegistro": {
+    "$date": "2024-11-06T05:14:23.924Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c6159d2"
+  },
+  "nombre": "Sr. Salvador Sevilla Corrales",
+  "email": "Gabriel_OrdonezEspinosa@yahoo.com",
+  "telefono": "900657713",
+  "direccion": "Urbanización Carla Grijalva Zamudio, 90",
+  "fechaRegistro": {
+    "$date": "2025-01-02T13:19:58.516Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c6159d3"
+  },
+  "nombre": "Antonia Medrano Arenas",
+  "email": "Amalia_MurilloZamora6@gmail.com",
+  "telefono": "919.028.677",
+  "direccion": "Lado José Emilio Dávila Valentín, 7",
+  "fechaRegistro": {
+    "$date": "2026-05-27T14:00:52.917Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c6159d4"
+  },
+  "nombre": "María Elena Tovar Burgos",
+  "email": "Irene.CerdaVilla@gmail.com",
+  "telefono": "932 643 742",
+  "direccion": "Manzana Felipe, 22",
+  "fechaRegistro": {
+    "$date": "2025-09-24T13:11:49.139Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c6159d5"
+  },
+  "nombre": "Rubén Romero Polanco",
+  "email": "Cesar62@gmail.com",
+  "telefono": "987.042.263",
+  "direccion": "Mercado Josep 19",
+  "fechaRegistro": {
+    "$date": "2025-06-03T08:22:25.652Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c6159d6"
+  },
+  "nombre": "Sta. Maricarmen Ocampo Guardado",
+  "email": "JuanRamon_AlfaroCervantes53@hotmail.com",
+  "telefono": "962964672",
+  "direccion": "Polígono Antonio Mota Nazario 6",
+  "fechaRegistro": {
+    "$date": "2025-01-19T14:38:20.559Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c6159d7"
+  },
+  "nombre": "Virginia Rolón Ulloa",
+  "email": "Andres_RinconRios15@hotmail.com",
+  "telefono": "936.670.538",
+  "direccion": "Quinta Juan Ramón Juárez Almanza 1",
+  "fechaRegistro": {
+    "$date": "2024-12-23T21:04:27.280Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c6159d8"
+  },
+  "nombre": "Sr. Ramiro Jurado Cárdenas",
+  "email": "Silvia_ArguelloValdes25@yahoo.com",
+  "telefono": "966.150.919",
+  "direccion": "Pasaje Antonio Santacruz Gil, 97",
+  "fechaRegistro": {
+    "$date": "2025-09-12T22:33:03.755Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c6159d9"
+  },
+  "nombre": "Soledad Olivo Cabrera",
+  "email": "Margarita.RiveroCorral@yahoo.com",
+  "telefono": "924 090 536",
+  "direccion": "Salida Sergi Herrera Grijalva 27",
+  "fechaRegistro": {
+    "$date": "2024-06-07T05:15:04.895Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c6159da"
+  },
+  "nombre": "Homero Soliz Pacheco",
+  "email": "Francisco55@yahoo.com",
+  "telefono": "908 782 492",
+  "direccion": "Explanada Caridad 8",
+  "fechaRegistro": {
+    "$date": "2025-06-13T11:00:35.994Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c6159db"
+  },
+  "nombre": "Ana Luisa Villalobos Castañeda",
+  "email": "Mateo64@hotmail.com",
+  "telefono": "934.326.158",
+  "direccion": "Bajada José Emilio Burgos Soliz 58",
+  "fechaRegistro": {
+    "$date": "2025-08-09T14:07:25.831Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c6159dc"
+  },
+  "nombre": "Luz Tórrez Ortega",
+  "email": "Sara_AvilesArce@yahoo.com",
+  "telefono": "938156637",
+  "direccion": "Bloque Pablo s/n.",
+  "fechaRegistro": {
+    "$date": "2025-02-21T11:57:47.976Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c6159dd"
+  },
+  "nombre": "Jordi Peña Delgadillo",
+  "email": "Carmen39@yahoo.com",
+  "telefono": "910-410-885",
+  "direccion": "Prolongación Josep Toro Cavazos, 45",
+  "fechaRegistro": {
+    "$date": "2025-02-04T16:37:55.130Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c6159de"
+  },
+  "nombre": "Sr. Josep Lovato Villa",
+  "email": "Jesus.RosalesRascon@gmail.com",
+  "telefono": "916421103",
+  "direccion": "Ronda Gloria s/n.",
+  "fechaRegistro": {
+    "$date": "2026-03-14T03:37:52.779Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c6159df"
+  },
+  "nombre": "Elsa Alfaro Garrido",
+  "email": "Sancho.SalcedoQuiroz@hotmail.com",
+  "telefono": "941.574.316",
+  "direccion": "Colegio Margarita, 1",
+  "fechaRegistro": {
+    "$date": "2024-10-02T19:11:31.536Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c6159e0"
+  },
+  "nombre": "Ignacio Robledo Galindo",
+  "email": "Santiago_CordovaRoybal10@yahoo.com",
+  "telefono": "993371704",
+  "direccion": "Barrio Ana Burgos Torres s/n.",
+  "fechaRegistro": {
+    "$date": "2025-12-05T02:24:19.687Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c6159e1"
+  },
+  "nombre": "Rosa Reyes Rascón",
+  "email": "Jesus95@yahoo.com",
+  "telefono": "932-597-446",
+  "direccion": "Poblado María de los Ángeles, 64",
+  "fechaRegistro": {
+    "$date": "2025-04-11T07:48:30.438Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c6159e2"
+  },
+  "nombre": "María José Anguiano Zavala",
+  "email": "Benito.MontanezBadillo@yahoo.com",
+  "telefono": "912-089-601",
+  "direccion": "Mercado Andrea Baeza Delrío, 7",
+  "fechaRegistro": {
+    "$date": "2024-11-15T23:02:02.602Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c6159e3"
+  },
+  "nombre": "Carla Zarate Casas",
+  "email": "Eloisa50@gmail.com",
+  "telefono": "961.750.726",
+  "direccion": "Paseo Juan Carlos s/n.",
+  "fechaRegistro": {
+    "$date": "2026-01-27T00:31:58.236Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c6159e4"
+  },
+  "nombre": "Francisco Serrato Carrero",
+  "email": "Natalia56@gmail.com",
+  "telefono": "915 182 477",
+  "direccion": "Cuesta César, 2",
+  "fechaRegistro": {
+    "$date": "2025-02-17T19:41:54.532Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c6159e5"
+  },
+  "nombre": "Lorenzo Lemus Raya",
+  "email": "Daniel5@hotmail.com",
+  "telefono": "955-497-418",
+  "direccion": "Parcela Juana Figueroa Santiago 9",
+  "fechaRegistro": {
+    "$date": "2025-07-08T04:09:17.453Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c6159e6"
+  },
+  "nombre": "Jordi Burgos Torres",
+  "email": "Cesar.LoeraMelendez1@yahoo.com",
+  "telefono": "926 762 548",
+  "direccion": "Paseo Óscar Soliz Amador 3",
+  "fechaRegistro": {
+    "$date": "2025-07-23T09:04:56.518Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c6159e7"
+  },
+  "nombre": "Emilio Rivero Valdivia",
+  "email": "Alejandro_BermudezOchoa@hotmail.com",
+  "telefono": "947616165",
+  "direccion": "Terrenos Benjamín Granados Llamas, 64",
+  "fechaRegistro": {
+    "$date": "2025-03-13T01:53:50.791Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c6159e8"
+  },
+  "nombre": "Lucía Duarte Domínguez",
+  "email": "Mariano_GuillenReyes@gmail.com",
+  "telefono": "987-502-241",
+  "direccion": "Extrarradio Verónica 2",
+  "fechaRegistro": {
+    "$date": "2025-06-29T19:57:33.361Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c6159e9"
+  },
+  "nombre": "Sr. Andrés Barajas Barela",
+  "email": "Claudia38@hotmail.com",
+  "telefono": "997.243.087",
+  "direccion": "Rua Ana, 3",
+  "fechaRegistro": {
+    "$date": "2026-01-28T17:35:54.315Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c6159ea"
+  },
+  "nombre": "Rubén Escobar Zamora",
+  "email": "Martin.AriasZuniga90@gmail.com",
+  "telefono": "971 743 532",
+  "direccion": "Urbanización Roberto Posada Saiz, 67",
+  "fechaRegistro": {
+    "$date": "2025-01-17T14:40:14.606Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c6159eb"
+  },
+  "nombre": "Sra. Irene Atencio Fernández",
+  "email": "Elsa_LozadaGiron@yahoo.com",
+  "telefono": "931539669",
+  "direccion": "Rampa César, 5",
+  "fechaRegistro": {
+    "$date": "2025-09-04T15:56:48.864Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c6159ec"
+  },
+  "nombre": "Sr. Luis Samaniego Carbajal",
+  "email": "JulioCesar71@hotmail.com",
+  "telefono": "939136219",
+  "direccion": "Masía Ernesto, 8",
+  "fechaRegistro": {
+    "$date": "2026-06-01T18:42:00.123Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c6159ed"
+  },
+  "nombre": "Sr. Emilio Aragón Sandoval",
+  "email": "Ramon_ValdesDelgadillo@hotmail.com",
+  "telefono": "900 068 828",
+  "direccion": "Mercado Jennifer 19",
+  "fechaRegistro": {
+    "$date": "2026-01-16T17:33:40.791Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c6159ee"
+  },
+  "nombre": "Guillermo Iglesias Montenegro",
+  "email": "Sergio.YbarraSaenz@yahoo.com",
+  "telefono": "929 168 741",
+  "direccion": "Explanada Marco Antonio s/n.",
+  "fechaRegistro": {
+    "$date": "2024-10-02T21:19:28.613Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c6159ef"
+  },
+  "nombre": "Catalina Casillas Soto",
+  "email": "Cristobal99@gmail.com",
+  "telefono": "953983874",
+  "direccion": "Puente Armando 84",
+  "fechaRegistro": {
+    "$date": "2025-09-29T15:41:14.124Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c6159f0"
+  },
+  "nombre": "Rosa Sánchez Mejía",
+  "email": "Barbara_OrnelasCardenas62@gmail.com",
+  "telefono": "955.640.258",
+  "direccion": "Glorieta Hugo s/n.",
+  "fechaRegistro": {
+    "$date": "2024-12-15T08:08:37.083Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c6159f1"
+  },
+  "nombre": "Roser Delarosa Reynoso",
+  "email": "AnaLuisa64@yahoo.com",
+  "telefono": "955047086",
+  "direccion": "Urbanización Timoteo Palomino Frías 18",
+  "fechaRegistro": {
+    "$date": "2025-03-15T19:34:35.562Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c6159f2"
+  },
+  "nombre": "Sr. Federico Delrío Alcántar",
+  "email": "JorgeLuis.GaitanEstevez@hotmail.com",
+  "telefono": "949867371",
+  "direccion": "Pasaje María José Abeyta Estrada 9",
+  "fechaRegistro": {
+    "$date": "2025-08-02T16:53:27.778Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c6159f3"
+  },
+  "nombre": "Andrea Lomeli Jaime",
+  "email": "JoseMaria.CastellanosQuintero58@yahoo.com",
+  "telefono": "930.827.336",
+  "direccion": "Calle Mario Farías Brito 47",
+  "fechaRegistro": {
+    "$date": "2025-11-21T17:11:42.370Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c6159f4"
+  },
+  "nombre": "Sta. María Eugenia Martínez Zamudio",
+  "email": "Pedro32@hotmail.com",
+  "telefono": "948-780-958",
+  "direccion": "Poblado Miguel Ángel, 38",
+  "fechaRegistro": {
+    "$date": "2025-01-24T22:23:47.212Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c6159f5"
+  },
+  "nombre": "Hernán Acuña Lemus",
+  "email": "Marcela.AlvaMelendez56@gmail.com",
+  "telefono": "965 505 073",
+  "direccion": "Partida Catalina, 9",
+  "fechaRegistro": {
+    "$date": "2024-06-23T14:47:48.984Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c6159f6"
+  },
+  "nombre": "Rocío Cruz Uribe",
+  "email": "Marilu.BustamanteBonilla@hotmail.com",
+  "telefono": "906-948-004",
+  "direccion": "Glorieta Bernardo 45",
+  "fechaRegistro": {
+    "$date": "2026-05-10T09:18:56.224Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c6159f7"
+  },
+  "nombre": "Gonzalo Galindo Alemán",
+  "email": "MariaJose55@hotmail.com",
+  "telefono": "955.129.476",
+  "direccion": "Quinta Lola Quintana Sarabia, 57",
+  "fechaRegistro": {
+    "$date": "2024-10-04T16:20:44.619Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c6159f8"
+  },
+  "nombre": "Pablo Lebrón Cepeda",
+  "email": "JuanCarlos87@gmail.com",
+  "telefono": "900-125-775",
+  "direccion": "Edificio Reina s/n.",
+  "fechaRegistro": {
+    "$date": "2025-02-23T17:40:05.132Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c6159f9"
+  },
+  "nombre": "Rodrigo Araña Roldán",
+  "email": "Alejandro_LinaresGomez18@yahoo.com",
+  "telefono": "968.512.128",
+  "direccion": "Travesía Mariano Colón Centeno s/n.",
+  "fechaRegistro": {
+    "$date": "2025-11-04T19:01:59.224Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c6159fa"
+  },
+  "nombre": "Vicente Casillas Mireles",
+  "email": "Gerardo.SisnerosVillanueva@gmail.com",
+  "telefono": "971107899",
+  "direccion": "Sector Gabriel Villegas Muñoz 76",
+  "fechaRegistro": {
+    "$date": "2025-05-18T07:48:15.131Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c6159fb"
+  },
+  "nombre": "Mariana Armijo Flores",
+  "email": "Ivan.DelapazBanda@yahoo.com",
+  "telefono": "960 365 348",
+  "direccion": "Parque Gabriela s/n.",
+  "fechaRegistro": {
+    "$date": "2026-05-03T07:42:35.981Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c6159fc"
+  },
+  "nombre": "Rosalia Cabán Collazo",
+  "email": "Marisol34@yahoo.com",
+  "telefono": "994.471.875",
+  "direccion": "Monte Mariano, 1",
+  "fechaRegistro": {
+    "$date": "2025-07-19T11:52:07.610Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c6159fd"
+  },
+  "nombre": "Diana Valentín Perales",
+  "email": "Samuel.EchevarriaPacheco43@hotmail.com",
+  "telefono": "914.703.155",
+  "direccion": "Parcela Ricardo Montenegro Apodaca s/n.",
+  "fechaRegistro": {
+    "$date": "2024-12-31T17:04:21.805Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c6159fe"
+  },
+  "nombre": "Débora Puente Gastélum",
+  "email": "AnaLuisa_HenriquezJaimes6@gmail.com",
+  "telefono": "984 356 831",
+  "direccion": "Colonia Teresa 72",
+  "fechaRegistro": {
+    "$date": "2024-07-07T12:40:03.040Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c6159ff"
+  },
+  "nombre": "Miguel Ángel Quiróz Gaitán",
+  "email": "MariaCristina12@gmail.com",
+  "telefono": "995 364 407",
+  "direccion": "Vía Pública Mariano Vera Villegas 2",
+  "fechaRegistro": {
+    "$date": "2026-05-12T22:26:13.842Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a00"
+  },
+  "nombre": "Beatriz Lovato Casillas",
+  "email": "Lourdes77@yahoo.com",
+  "telefono": "962 586 891",
+  "direccion": "Barranco Adán Valles Solís s/n.",
+  "fechaRegistro": {
+    "$date": "2025-05-20T11:09:15.492Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a01"
+  },
+  "nombre": "Gabriela Olvera Piña",
+  "email": "Cristina14@gmail.com",
+  "telefono": "960.607.892",
+  "direccion": "Masía Andrés Puente Toro, 35",
+  "fechaRegistro": {
+    "$date": "2024-07-03T07:05:22.902Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a02"
+  },
+  "nombre": "Adela Acosta Maestas",
+  "email": "JuanCarlos.TijerinaTerrazas44@yahoo.com",
+  "telefono": "907-212-916",
+  "direccion": "Manzana Gerardo, 6",
+  "fechaRegistro": {
+    "$date": "2026-03-19T10:42:02.474Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a03"
+  },
+  "nombre": "Vicente Trejo Báez",
+  "email": "Horacio58@hotmail.com",
+  "telefono": "951099999",
+  "direccion": "Subida José, 70",
+  "fechaRegistro": {
+    "$date": "2024-12-29T05:33:08.661Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a04"
+  },
+  "nombre": "Raquel Ruíz Alicea",
+  "email": "Amalia17@hotmail.com",
+  "telefono": "910 003 461",
+  "direccion": "Ferrocarril Lorena, 96",
+  "fechaRegistro": {
+    "$date": "2024-11-29T13:58:13.971Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a05"
+  },
+  "nombre": "María de los Ángeles Meléndez Laboy",
+  "email": "Mario.GarzaSisneros@hotmail.com",
+  "telefono": "921-210-479",
+  "direccion": "Calle Rubén Rosas Carbajal, 96",
+  "fechaRegistro": {
+    "$date": "2024-10-21T07:51:45.684Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a06"
+  },
+  "nombre": "Sr. Francisco Tovar Abeyta",
+  "email": "Felipe.PartidaDelao@yahoo.com",
+  "telefono": "927.836.714",
+  "direccion": "Salida Rafael s/n.",
+  "fechaRegistro": {
+    "$date": "2026-01-17T05:32:55.154Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a07"
+  },
+  "nombre": "Conchita Gaitán Tapia",
+  "email": "Josefina.MolinaVaca@hotmail.com",
+  "telefono": "931 799 465",
+  "direccion": "Entrada Felipe 71",
+  "fechaRegistro": {
+    "$date": "2025-04-15T01:13:54.122Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a08"
+  },
+  "nombre": "Pablo Collado Elizondo",
+  "email": "Alejandro.DuarteCeja55@yahoo.com",
+  "telefono": "937.035.267",
+  "direccion": "Explanada Reina 77",
+  "fechaRegistro": {
+    "$date": "2025-05-21T13:12:45.869Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a09"
+  },
+  "nombre": "Lorena Marín Barragán",
+  "email": "Cecilia_UrrutiaArchuleta@hotmail.com",
+  "telefono": "943413150",
+  "direccion": "Aldea Jaime 81",
+  "fechaRegistro": {
+    "$date": "2024-10-04T23:20:54.285Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a0a"
+  },
+  "nombre": "Luis Toledo Esquivel",
+  "email": "Jesus.FigueroaAlcantar19@hotmail.com",
+  "telefono": "992394977",
+  "direccion": "Chalet Felipe 24",
+  "fechaRegistro": {
+    "$date": "2024-08-02T22:21:09.598Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a0b"
+  },
+  "nombre": "Ana Castellanos Pichardo",
+  "email": "Rosario25@yahoo.com",
+  "telefono": "960.150.864",
+  "direccion": "Colonia Francisco Gutiérrez Barajas 5",
+  "fechaRegistro": {
+    "$date": "2024-08-20T03:42:48.579Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a0c"
+  },
+  "nombre": "Verónica Olivas Luevano",
+  "email": "Elsa6@gmail.com",
+  "telefono": "918 562 357",
+  "direccion": "Masía Homero Moreno Rosales, 6",
+  "fechaRegistro": {
+    "$date": "2025-11-19T02:16:39.958Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a0d"
+  },
+  "nombre": "José Lemus Rubio",
+  "email": "Esteban35@hotmail.com",
+  "telefono": "920-631-508",
+  "direccion": "Sección Elena Calvillo Murillo, 7",
+  "fechaRegistro": {
+    "$date": "2025-09-30T18:42:14.922Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a0e"
+  },
+  "nombre": "Anita Perales Partida",
+  "email": "Ivan_RochaLeal10@hotmail.com",
+  "telefono": "901.542.025",
+  "direccion": "Ronda Óscar 28",
+  "fechaRegistro": {
+    "$date": "2024-07-07T05:38:10.699Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a0f"
+  },
+  "nombre": "Ramona Espinosa Jiménez",
+  "email": "Eloisa.ZelayaSantacruz39@hotmail.com",
+  "telefono": "995-190-921",
+  "direccion": "Rincón Marco Antonio Moreno Barraza, 5",
+  "fechaRegistro": {
+    "$date": "2025-05-20T14:47:36.820Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a10"
+  },
+  "nombre": "Julia Aguilera Collazo",
+  "email": "Ramona1@yahoo.com",
+  "telefono": "906-477-775",
+  "direccion": "Terrenos Florencia Posada Rodríguez 10",
+  "fechaRegistro": {
+    "$date": "2025-10-01T17:10:05.393Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a11"
+  },
+  "nombre": "María Eugenia Bañuelos Curiel",
+  "email": "MariadelosAngeles85@yahoo.com",
+  "telefono": "972171812",
+  "direccion": "Caserio Anita 59",
+  "fechaRegistro": {
+    "$date": "2024-11-29T16:09:01.612Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a12"
+  },
+  "nombre": "Ramiro Montéz Tovar",
+  "email": "Cesar42@gmail.com",
+  "telefono": "900233061",
+  "direccion": "Sección Eduardo, 9",
+  "fechaRegistro": {
+    "$date": "2025-01-10T13:45:56.210Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a13"
+  },
+  "nombre": "Alicia Muñoz Corrales",
+  "email": "Pilar_AmayaMaldonado@hotmail.com",
+  "telefono": "963.602.809",
+  "direccion": "Edificio Vicente s/n.",
+  "fechaRegistro": {
+    "$date": "2024-09-07T21:50:40.865Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a14"
+  },
+  "nombre": "Agustín Saavedra Avilés",
+  "email": "Mayte_AcostaOlivas35@gmail.com",
+  "telefono": "925998073",
+  "direccion": "Lado Raúl, 86",
+  "fechaRegistro": {
+    "$date": "2025-12-31T00:30:46.709Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a15"
+  },
+  "nombre": "Caridad Cisneros Collazo",
+  "email": "Gilberto11@yahoo.com",
+  "telefono": "944887080",
+  "direccion": "Puente David 4",
+  "fechaRegistro": {
+    "$date": "2025-06-27T02:53:24.460Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a16"
+  },
+  "nombre": "Manuela Sáenz Ceballos",
+  "email": "AnaLuisa33@gmail.com",
+  "telefono": "984 884 461",
+  "direccion": "Apartamento Marco Antonio Sepúlveda Barragán 3",
+  "fechaRegistro": {
+    "$date": "2025-03-15T09:45:36.384Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a17"
+  },
+  "nombre": "Rosa Espinosa Méndez",
+  "email": "Emilio_TeranPreciado@yahoo.com",
+  "telefono": "907.278.322",
+  "direccion": "Monte José Partida Padrón s/n.",
+  "fechaRegistro": {
+    "$date": "2026-03-30T13:34:12.232Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a18"
+  },
+  "nombre": "Alfonso Candelaria Salcido",
+  "email": "Ernesto.PalominoManzanares28@gmail.com",
+  "telefono": "912.811.152",
+  "direccion": "Plaza José Eduardo s/n.",
+  "fechaRegistro": {
+    "$date": "2024-10-05T19:16:49.410Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a19"
+  },
+  "nombre": "Margarita Sosa Fuentes",
+  "email": "Adriana19@yahoo.com",
+  "telefono": "956283174",
+  "direccion": "Senda Patricio Rolón Cisneros s/n.",
+  "fechaRegistro": {
+    "$date": "2025-05-13T08:02:38.304Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a1a"
+  },
+  "nombre": "Juan Carlos Calvillo Gámez",
+  "email": "Rafael85@hotmail.com",
+  "telefono": "948-895-507",
+  "direccion": "Plaza Sergi Vega Irizarry 9",
+  "fechaRegistro": {
+    "$date": "2025-04-27T19:02:08.772Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a1b"
+  },
+  "nombre": "José Eduardo Delapaz Arias",
+  "email": "JoseLuis_AyalaVillanueva98@hotmail.com",
+  "telefono": "965-526-018",
+  "direccion": "Prolongación Luis Miguel Gurule Barreto, 8",
+  "fechaRegistro": {
+    "$date": "2024-07-19T18:50:39.794Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a1c"
+  },
+  "nombre": "Daniela Báez Sepúlveda",
+  "email": "Jennifer_LugoRolon@yahoo.com",
+  "telefono": "954 685 583",
+  "direccion": "Grupo Virginia s/n.",
+  "fechaRegistro": {
+    "$date": "2025-06-17T10:34:23.960Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a1d"
+  },
+  "nombre": "Marcela Bañuelos Zambrano",
+  "email": "Norma_BarajasPelayo@hotmail.com",
+  "telefono": "965-093-132",
+  "direccion": "Escalinata Marcela Arteaga Salcido 5",
+  "fechaRegistro": {
+    "$date": "2026-04-10T16:44:18.383Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a1e"
+  },
+  "nombre": "José Emilio Narváez Saldaña",
+  "email": "Matilde51@yahoo.com",
+  "telefono": "945 215 874",
+  "direccion": "Calle Lorenzo s/n.",
+  "fechaRegistro": {
+    "$date": "2025-08-30T23:51:00.504Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a1f"
+  },
+  "nombre": "Silvia Naranjo Córdova",
+  "email": "Isabela.NietoOlivera@gmail.com",
+  "telefono": "953472784",
+  "direccion": "Chalet Ana María, 32",
+  "fechaRegistro": {
+    "$date": "2024-06-05T19:53:14.067Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a20"
+  },
+  "nombre": "Mariano Tirado Verdugo",
+  "email": "Raul_JuarezCasarez21@gmail.com",
+  "telefono": "949643905",
+  "direccion": "Jardines Beatriz Perea Iglesias 3",
+  "fechaRegistro": {
+    "$date": "2025-03-07T14:20:31.509Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a21"
+  },
+  "nombre": "Elena Olivárez Cantú",
+  "email": "Roser_SevillaPuga41@gmail.com",
+  "telefono": "904-454-399",
+  "direccion": "Extrarradio Octavio Rivera Sánchez 93",
+  "fechaRegistro": {
+    "$date": "2025-01-22T21:56:10.300Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a22"
+  },
+  "nombre": "Mario Olmos Valverde",
+  "email": "Clemente73@gmail.com",
+  "telefono": "950712885",
+  "direccion": "Chalet Jaime Velasco Barrientos, 5",
+  "fechaRegistro": {
+    "$date": "2025-08-28T14:29:05.081Z"
+  },
+  "__v": 0
+}]

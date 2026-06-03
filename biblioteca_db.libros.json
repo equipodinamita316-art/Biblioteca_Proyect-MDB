@@ -1,0 +1,1440 @@
+[{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615933"
+  },
+  "titulo": "Manual de Patria",
+  "autor": "Sr. Gregorio Aponte Linares",
+  "isbn": "978-0-565-48814-7",
+  "genero": "Fantasía",
+  "añoPublicacion": 1995,
+  "ejemplaresDisponibles": 8,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615934"
+  },
+  "titulo": "La historia de Depulso",
+  "autor": "Enrique Arellano Castro",
+  "isbn": "978-0-18-141260-1",
+  "genero": "Fantasía",
+  "añoPublicacion": 2024,
+  "ejemplaresDisponibles": 3,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615935"
+  },
+  "titulo": "El misterio de Bos",
+  "autor": "Sr. Iván Díaz Adame",
+  "isbn": "978-0-02-387887-9",
+  "genero": "Ficción",
+  "añoPublicacion": 1977,
+  "ejemplaresDisponibles": 8,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615936"
+  },
+  "titulo": "El misterio de Assumenda",
+  "autor": "Soledad Sedillo Tórrez",
+  "isbn": "978-0-87543-004-1",
+  "genero": "Fantasía",
+  "añoPublicacion": 1996,
+  "ejemplaresDisponibles": 8,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615937"
+  },
+  "titulo": "Fundamentos de Vomito",
+  "autor": "Alberto Rivas Grijalva",
+  "isbn": "978-1-331-44762-7",
+  "genero": "Fantasía",
+  "añoPublicacion": 2001,
+  "ejemplaresDisponibles": 2,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615938"
+  },
+  "titulo": "Fundamentos de Arguo",
+  "autor": "Anita Henríquez Garay",
+  "isbn": "978-1-74775-425-8",
+  "genero": "Biografía",
+  "añoPublicacion": 1984,
+  "ejemplaresDisponibles": 9,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615939"
+  },
+  "titulo": "Manual de Templum",
+  "autor": "Marco Antonio Guevara Matos",
+  "isbn": "978-0-408-18111-2",
+  "genero": "Tecnología",
+  "añoPublicacion": 1979,
+  "ejemplaresDisponibles": 3,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c61593a"
+  },
+  "titulo": "La sombra de Caput",
+  "autor": "José Eduardo Olivárez Armendáriz",
+  "isbn": "978-1-185-23734-4",
+  "genero": "Tecnología",
+  "añoPublicacion": 1986,
+  "ejemplaresDisponibles": 2,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c61593b"
+  },
+  "titulo": "El misterio de Verbera",
+  "autor": "Lilia Malave Fajardo",
+  "isbn": "978-0-86283-483-8",
+  "genero": "Ficción",
+  "añoPublicacion": 1985,
+  "ejemplaresDisponibles": 10,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c61593c"
+  },
+  "titulo": "Crónicas de Umbra",
+  "autor": "Federico Díaz Valles",
+  "isbn": "978-1-74777-410-2",
+  "genero": "Tecnología",
+  "añoPublicacion": 2024,
+  "ejemplaresDisponibles": 5,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c61593d"
+  },
+  "titulo": "Fundamentos de Tot",
+  "autor": "Ana Gamboa Negrón",
+  "isbn": "978-1-001-24862-2",
+  "genero": "Fantasía",
+  "añoPublicacion": 2023,
+  "ejemplaresDisponibles": 10,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c61593e"
+  },
+  "titulo": "Introducción a Vaco",
+  "autor": "Vicente Benavídez Enríquez",
+  "isbn": "978-0-579-05672-1",
+  "genero": "Ciencia",
+  "añoPublicacion": 2009,
+  "ejemplaresDisponibles": 9,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c61593f"
+  },
+  "titulo": "La historia de Uterque",
+  "autor": "Concepción Vanegas Lara",
+  "isbn": "978-1-312-39942-6",
+  "genero": "Historia",
+  "añoPublicacion": 2007,
+  "ejemplaresDisponibles": 2,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615940"
+  },
+  "titulo": "Crónicas de Appello",
+  "autor": "Dolores Agosto Villaseñor",
+  "isbn": "978-1-194-76514-2",
+  "genero": "Ciencia",
+  "añoPublicacion": 1984,
+  "ejemplaresDisponibles": 5,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615941"
+  },
+  "titulo": "Manual de Cui",
+  "autor": "Leonor Laureano Figueroa",
+  "isbn": "978-1-57262-612-6",
+  "genero": "Historia",
+  "añoPublicacion": 2002,
+  "ejemplaresDisponibles": 4,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615942"
+  },
+  "titulo": "Introducción a Tristis",
+  "autor": "Matilde Ríos Leal",
+  "isbn": "978-1-4731-3228-3",
+  "genero": "Historia",
+  "añoPublicacion": 1983,
+  "ejemplaresDisponibles": 7,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615943"
+  },
+  "titulo": "Fundamentos de Casus",
+  "autor": "Sta. Concepción Romero Vega",
+  "isbn": "978-0-277-03866-1",
+  "genero": "Tecnología",
+  "añoPublicacion": 2001,
+  "ejemplaresDisponibles": 9,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615944"
+  },
+  "titulo": "Fundamentos de Calco",
+  "autor": "Juana Malave Quintana",
+  "isbn": "978-0-566-23677-8",
+  "genero": "Biografía",
+  "añoPublicacion": 1977,
+  "ejemplaresDisponibles": 4,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615945"
+  },
+  "titulo": "La historia de Traho",
+  "autor": "Leticia Marrero Farías",
+  "isbn": "978-1-5273-8578-8",
+  "genero": "Ficción",
+  "añoPublicacion": 1982,
+  "ejemplaresDisponibles": 3,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615946"
+  },
+  "titulo": "Manual de Ait",
+  "autor": "Ana María Fuentes Rangel",
+  "isbn": "978-1-950106-84-4",
+  "genero": "Tecnología",
+  "añoPublicacion": 1988,
+  "ejemplaresDisponibles": 9,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615947"
+  },
+  "titulo": "La sombra de Dolores",
+  "autor": "Adán Borrego Covarrubias",
+  "isbn": "978-1-394-41240-2",
+  "genero": "Historia",
+  "añoPublicacion": 1998,
+  "ejemplaresDisponibles": 9,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615948"
+  },
+  "titulo": "La historia de Statua",
+  "autor": "Sergi Gastélum Aguirre",
+  "isbn": "978-1-5163-3867-2",
+  "genero": "Ficción",
+  "añoPublicacion": 2003,
+  "ejemplaresDisponibles": 3,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615949"
+  },
+  "titulo": "Introducción a Thalassinus",
+  "autor": "Lola Treviño Villalobos",
+  "isbn": "978-1-944783-56-3",
+  "genero": "Historia",
+  "añoPublicacion": 2003,
+  "ejemplaresDisponibles": 6,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c61594a"
+  },
+  "titulo": "El misterio de Curiositas",
+  "autor": "Sr. Juan Carlos Valdivia Lucio",
+  "isbn": "978-1-9827-7028-0",
+  "genero": "Biografía",
+  "añoPublicacion": 2012,
+  "ejemplaresDisponibles": 2,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c61594b"
+  },
+  "titulo": "El secreto de Libero",
+  "autor": "Jennifer Tejada Treviño",
+  "isbn": "978-0-03-621373-5",
+  "genero": "Historia",
+  "añoPublicacion": 1978,
+  "ejemplaresDisponibles": 6,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c61594c"
+  },
+  "titulo": "Crónicas de Aeneus",
+  "autor": "Sr. Sergio Pagan Valencia",
+  "isbn": "978-0-16-062901-3",
+  "genero": "Ciencia",
+  "añoPublicacion": 1999,
+  "ejemplaresDisponibles": 4,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c61594d"
+  },
+  "titulo": "Fundamentos de Commodo",
+  "autor": "Anni Delgadillo Perea",
+  "isbn": "978-0-336-84437-0",
+  "genero": "Fantasía",
+  "añoPublicacion": 2009,
+  "ejemplaresDisponibles": 5,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c61594e"
+  },
+  "titulo": "Fundamentos de Auditor",
+  "autor": "Guillermina Pagan Pichardo",
+  "isbn": "978-1-4639-6064-3",
+  "genero": "Historia",
+  "añoPublicacion": 1985,
+  "ejemplaresDisponibles": 3,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c61594f"
+  },
+  "titulo": "Introducción a Sponte",
+  "autor": "Sta. Ariadna Rosales Frías",
+  "isbn": "978-1-06-179807-5",
+  "genero": "Fantasía",
+  "añoPublicacion": 2003,
+  "ejemplaresDisponibles": 6,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615950"
+  },
+  "titulo": "El misterio de Tenus",
+  "autor": "Jorge Amaya Uribe",
+  "isbn": "978-1-397-36671-9",
+  "genero": "Tecnología",
+  "añoPublicacion": 2023,
+  "ejemplaresDisponibles": 6,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615951"
+  },
+  "titulo": "La historia de Eos",
+  "autor": "David Sevilla Calvillo",
+  "isbn": "978-0-501-30456-2",
+  "genero": "Tecnología",
+  "añoPublicacion": 1988,
+  "ejemplaresDisponibles": 10,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615952"
+  },
+  "titulo": "Manual de Ascit",
+  "autor": "Isabel Flores Ríos",
+  "isbn": "978-1-032-43271-7",
+  "genero": "Tecnología",
+  "añoPublicacion": 1988,
+  "ejemplaresDisponibles": 6,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615953"
+  },
+  "titulo": "Crónicas de Capto",
+  "autor": "Sta. Diana Garibay Piña",
+  "isbn": "978-1-942448-80-8",
+  "genero": "Biografía",
+  "añoPublicacion": 1985,
+  "ejemplaresDisponibles": 8,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615954"
+  },
+  "titulo": "El secreto de Cavus",
+  "autor": "María Eugenia Mesa Villalobos",
+  "isbn": "978-0-632-47184-3",
+  "genero": "Ficción",
+  "añoPublicacion": 2009,
+  "ejemplaresDisponibles": 4,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615955"
+  },
+  "titulo": "La sombra de Talio",
+  "autor": "Rosa Leiva Cardona",
+  "isbn": "978-1-5247-5588-1",
+  "genero": "Biografía",
+  "añoPublicacion": 1977,
+  "ejemplaresDisponibles": 1,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615956"
+  },
+  "titulo": "La sombra de Vestrum",
+  "autor": "Víctor Matos Adame",
+  "isbn": "978-0-7600-5886-2",
+  "genero": "Ficción",
+  "añoPublicacion": 2023,
+  "ejemplaresDisponibles": 4,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615957"
+  },
+  "titulo": "El misterio de Complectus",
+  "autor": "Sr. José Emilio Melgar Calderón",
+  "isbn": "978-1-955373-48-7",
+  "genero": "Ficción",
+  "añoPublicacion": 2010,
+  "ejemplaresDisponibles": 1,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615958"
+  },
+  "titulo": "La historia de Quidem",
+  "autor": "Octavio Chavarría Aguilera",
+  "isbn": "978-0-493-41736-3",
+  "genero": "Fantasía",
+  "añoPublicacion": 2016,
+  "ejemplaresDisponibles": 9,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615959"
+  },
+  "titulo": "Crónicas de Bis",
+  "autor": "Esperanza Elizondo Saavedra",
+  "isbn": "978-0-931019-45-6",
+  "genero": "Tecnología",
+  "añoPublicacion": 1984,
+  "ejemplaresDisponibles": 10,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c61595a"
+  },
+  "titulo": "Introducción a Cotidie",
+  "autor": "Leonor Abreu Delvalle",
+  "isbn": "978-1-6939-8948-3",
+  "genero": "Fantasía",
+  "añoPublicacion": 2014,
+  "ejemplaresDisponibles": 10,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c61595b"
+  },
+  "titulo": "La historia de Deputo",
+  "autor": "Eduardo Zavala Véliz",
+  "isbn": "978-0-8356-4221-7",
+  "genero": "Historia",
+  "añoPublicacion": 1986,
+  "ejemplaresDisponibles": 5,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c61595c"
+  },
+  "titulo": "Crónicas de Vita",
+  "autor": "Pilar Camacho Frías",
+  "isbn": "978-1-4280-7330-2",
+  "genero": "Biografía",
+  "añoPublicacion": 2006,
+  "ejemplaresDisponibles": 4,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c61595d"
+  },
+  "titulo": "Fundamentos de Nulla",
+  "autor": "Isabel Rojas Bravo",
+  "isbn": "978-0-8466-4855-0",
+  "genero": "Tecnología",
+  "añoPublicacion": 1991,
+  "ejemplaresDisponibles": 5,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c61595e"
+  },
+  "titulo": "El misterio de Aperiam",
+  "autor": "Rosalia Merino Reynoso",
+  "isbn": "978-1-5156-1121-9",
+  "genero": "Historia",
+  "añoPublicacion": 2018,
+  "ejemplaresDisponibles": 1,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c61595f"
+  },
+  "titulo": "La sombra de Similique",
+  "autor": "Ramona Llamas Bañuelos",
+  "isbn": "978-1-271-06165-5",
+  "genero": "Biografía",
+  "añoPublicacion": 1997,
+  "ejemplaresDisponibles": 6,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615960"
+  },
+  "titulo": "Manual de Nesciunt",
+  "autor": "Rosario Lemus Posada",
+  "isbn": "978-0-459-16169-9",
+  "genero": "Tecnología",
+  "añoPublicacion": 2002,
+  "ejemplaresDisponibles": 2,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615961"
+  },
+  "titulo": "El misterio de Angelus",
+  "autor": "Mariano Oquendo Gaona",
+  "isbn": "978-0-7845-4051-0",
+  "genero": "Ciencia",
+  "añoPublicacion": 1995,
+  "ejemplaresDisponibles": 6,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615962"
+  },
+  "titulo": "El misterio de Vereor",
+  "autor": "Sr. Alfredo Avilés Duarte",
+  "isbn": "978-1-137-06754-8",
+  "genero": "Biografía",
+  "añoPublicacion": 1995,
+  "ejemplaresDisponibles": 7,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615963"
+  },
+  "titulo": "Crónicas de Urbs",
+  "autor": "María Soledad Gaitán Palomo",
+  "isbn": "978-1-64614-530-0",
+  "genero": "Tecnología",
+  "añoPublicacion": 2009,
+  "ejemplaresDisponibles": 1,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615964"
+  },
+  "titulo": "Introducción a Trucido",
+  "autor": "Margarita Mena Domínguez",
+  "isbn": "978-0-8074-7427-3",
+  "genero": "Ficción",
+  "añoPublicacion": 2024,
+  "ejemplaresDisponibles": 8,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615965"
+  },
+  "titulo": "Introducción a Adulescens",
+  "autor": "Raúl Castillo Ceja",
+  "isbn": "978-0-7192-3908-3",
+  "genero": "Ciencia",
+  "añoPublicacion": 1998,
+  "ejemplaresDisponibles": 6,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615966"
+  },
+  "titulo": "Manual de Synagoga",
+  "autor": "Daniel Benavides Ávalos",
+  "isbn": "978-1-257-17580-2",
+  "genero": "Ciencia",
+  "añoPublicacion": 1998,
+  "ejemplaresDisponibles": 1,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615967"
+  },
+  "titulo": "El secreto de Civis",
+  "autor": "María Angulo Riojas",
+  "isbn": "978-1-56211-782-5",
+  "genero": "Ciencia",
+  "añoPublicacion": 2002,
+  "ejemplaresDisponibles": 10,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615968"
+  },
+  "titulo": "El secreto de Absorbeo",
+  "autor": "Dorotea Campos Alanis",
+  "isbn": "978-1-6789-1864-4",
+  "genero": "Tecnología",
+  "añoPublicacion": 2017,
+  "ejemplaresDisponibles": 6,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615969"
+  },
+  "titulo": "El secreto de Caveo",
+  "autor": "Juan Perales Zamudio",
+  "isbn": "978-1-289-05405-2",
+  "genero": "Ficción",
+  "añoPublicacion": 1998,
+  "ejemplaresDisponibles": 1,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c61596a"
+  },
+  "titulo": "Manual de Cura",
+  "autor": "Jordi Campos Arce",
+  "isbn": "978-1-4402-0327-5",
+  "genero": "Fantasía",
+  "añoPublicacion": 1976,
+  "ejemplaresDisponibles": 1,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c61596b"
+  },
+  "titulo": "El misterio de Laudantium",
+  "autor": "Jennifer Sevilla Anguiano",
+  "isbn": "978-0-15-853669-9",
+  "genero": "Fantasía",
+  "añoPublicacion": 1998,
+  "ejemplaresDisponibles": 2,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c61596c"
+  },
+  "titulo": "El misterio de Vito",
+  "autor": "Jacobo Agosto Alicea",
+  "isbn": "978-1-4051-9720-5",
+  "genero": "Historia",
+  "añoPublicacion": 1991,
+  "ejemplaresDisponibles": 10,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c61596d"
+  },
+  "titulo": "El secreto de Statua",
+  "autor": "Elsa Rendón Cerda",
+  "isbn": "978-0-02-589599-7",
+  "genero": "Biografía",
+  "añoPublicacion": 1982,
+  "ejemplaresDisponibles": 10,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c61596e"
+  },
+  "titulo": "El secreto de Consectetur",
+  "autor": "Claudio Tamayo Ledesma",
+  "isbn": "978-0-573-08834-6",
+  "genero": "Ciencia",
+  "añoPublicacion": 1986,
+  "ejemplaresDisponibles": 2,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c61596f"
+  },
+  "titulo": "Manual de Abstergo",
+  "autor": "María Luisa Batista Olvera",
+  "isbn": "978-1-4338-4466-9",
+  "genero": "Ficción",
+  "añoPublicacion": 1983,
+  "ejemplaresDisponibles": 8,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615970"
+  },
+  "titulo": "La sombra de Cogo",
+  "autor": "Jordi Trejo Correa",
+  "isbn": "978-0-374-35507-4",
+  "genero": "Historia",
+  "añoPublicacion": 2003,
+  "ejemplaresDisponibles": 2,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615971"
+  },
+  "titulo": "Manual de Avarus",
+  "autor": "Sr. Hermenegildo Naranjo Segura",
+  "isbn": "978-0-428-19919-7",
+  "genero": "Fantasía",
+  "añoPublicacion": 2009,
+  "ejemplaresDisponibles": 7,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615972"
+  },
+  "titulo": "Manual de Libero",
+  "autor": "Pedro Montemayor Araña",
+  "isbn": "978-1-203-90638-2",
+  "genero": "Tecnología",
+  "añoPublicacion": 2020,
+  "ejemplaresDisponibles": 3,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615973"
+  },
+  "titulo": "Introducción a Desino",
+  "autor": "Hernán Tamayo Farías",
+  "isbn": "978-1-77288-474-6",
+  "genero": "Biografía",
+  "añoPublicacion": 1996,
+  "ejemplaresDisponibles": 8,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615974"
+  },
+  "titulo": "La historia de Callide",
+  "autor": "Sergio Martínez Segovia",
+  "isbn": "978-1-915918-09-3",
+  "genero": "Biografía",
+  "añoPublicacion": 2002,
+  "ejemplaresDisponibles": 9,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615975"
+  },
+  "titulo": "La sombra de Claro",
+  "autor": "Susana Rendón Barreto",
+  "isbn": "978-1-390-15029-2",
+  "genero": "Biografía",
+  "añoPublicacion": 1994,
+  "ejemplaresDisponibles": 4,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615976"
+  },
+  "titulo": "Crónicas de Carbo",
+  "autor": "Martín Delarosa Valles",
+  "isbn": "978-1-9876-5883-5",
+  "genero": "Biografía",
+  "añoPublicacion": 2009,
+  "ejemplaresDisponibles": 3,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615977"
+  },
+  "titulo": "La sombra de Votum",
+  "autor": "Tomás Coronado Beltrán",
+  "isbn": "978-1-312-98528-5",
+  "genero": "Ciencia",
+  "añoPublicacion": 2013,
+  "ejemplaresDisponibles": 7,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615978"
+  },
+  "titulo": "El secreto de Deporto",
+  "autor": "Marilú Alonso Campos",
+  "isbn": "978-0-00-063069-8",
+  "genero": "Ficción",
+  "añoPublicacion": 2025,
+  "ejemplaresDisponibles": 5,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615979"
+  },
+  "titulo": "La historia de Sonitus",
+  "autor": "Reina Cintrón Prado",
+  "isbn": "978-0-597-09295-4",
+  "genero": "Ciencia",
+  "añoPublicacion": 2002,
+  "ejemplaresDisponibles": 8,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c61597a"
+  },
+  "titulo": "Fundamentos de Nesciunt",
+  "autor": "Lorenzo Arce Jurado",
+  "isbn": "978-1-5033-3454-0",
+  "genero": "Ciencia",
+  "añoPublicacion": 1982,
+  "ejemplaresDisponibles": 6,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c61597b"
+  },
+  "titulo": "Introducción a Vulgo",
+  "autor": "Berta Valladares Vigil",
+  "isbn": "978-1-874691-60-0",
+  "genero": "Ficción",
+  "añoPublicacion": 2023,
+  "ejemplaresDisponibles": 4,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c61597c"
+  },
+  "titulo": "Introducción a Bos",
+  "autor": "Federico Paredes Vargas",
+  "isbn": "978-1-59444-026-7",
+  "genero": "Ciencia",
+  "añoPublicacion": 2002,
+  "ejemplaresDisponibles": 9,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c61597d"
+  },
+  "titulo": "Fundamentos de Pax",
+  "autor": "Sta. Graciela Jaime Delafuente",
+  "isbn": "978-1-6619-3668-6",
+  "genero": "Ficción",
+  "añoPublicacion": 1983,
+  "ejemplaresDisponibles": 3,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c61597e"
+  },
+  "titulo": "Introducción a Clarus",
+  "autor": "Florencia González Girón",
+  "isbn": "978-0-7278-9153-2",
+  "genero": "Biografía",
+  "añoPublicacion": 2008,
+  "ejemplaresDisponibles": 10,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c61597f"
+  },
+  "titulo": "Crónicas de Defleo",
+  "autor": "Sr. Ángel Lozano Quiróz",
+  "isbn": "978-0-03-078250-3",
+  "genero": "Tecnología",
+  "añoPublicacion": 1981,
+  "ejemplaresDisponibles": 9,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615980"
+  },
+  "titulo": "Crónicas de Conicio",
+  "autor": "Salvador Núñez Villa",
+  "isbn": "978-1-6515-9386-8",
+  "genero": "Ciencia",
+  "añoPublicacion": 1987,
+  "ejemplaresDisponibles": 7,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615981"
+  },
+  "titulo": "La historia de Asper",
+  "autor": "Javier Villagómez Delafuente",
+  "isbn": "978-0-8187-5687-0",
+  "genero": "Ciencia",
+  "añoPublicacion": 2011,
+  "ejemplaresDisponibles": 1,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615982"
+  },
+  "titulo": "Manual de Verbum",
+  "autor": "Guillermina Carmona Ocasio",
+  "isbn": "978-1-229-30575-6",
+  "genero": "Historia",
+  "añoPublicacion": 2016,
+  "ejemplaresDisponibles": 4,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615983"
+  },
+  "titulo": "Manual de Calcar",
+  "autor": "Sara Carreón Pantoja",
+  "isbn": "978-1-0736-9887-5",
+  "genero": "Historia",
+  "añoPublicacion": 2010,
+  "ejemplaresDisponibles": 1,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615984"
+  },
+  "titulo": "El secreto de Cuppedia",
+  "autor": "Margarita Navarrete Collazo",
+  "isbn": "978-0-9570200-4-7",
+  "genero": "Tecnología",
+  "añoPublicacion": 2021,
+  "ejemplaresDisponibles": 7,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615985"
+  },
+  "titulo": "La sombra de Absconditus",
+  "autor": "Sr. Hugo Sedillo Paredes",
+  "isbn": "978-0-464-51469-5",
+  "genero": "Historia",
+  "añoPublicacion": 2000,
+  "ejemplaresDisponibles": 9,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615986"
+  },
+  "titulo": "Manual de Una",
+  "autor": "Germán Santillán Galindo",
+  "isbn": "978-0-599-51546-8",
+  "genero": "Biografía",
+  "añoPublicacion": 1988,
+  "ejemplaresDisponibles": 8,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615987"
+  },
+  "titulo": "La sombra de Cimentarius",
+  "autor": "Sergi Trujillo Fernández",
+  "isbn": "978-0-624-26979-3",
+  "genero": "Fantasía",
+  "añoPublicacion": 2001,
+  "ejemplaresDisponibles": 3,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615988"
+  },
+  "titulo": "Introducción a Confero",
+  "autor": "Víctor Cano Leiva",
+  "isbn": "978-1-5298-9036-5",
+  "genero": "Ficción",
+  "añoPublicacion": 1998,
+  "ejemplaresDisponibles": 7,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615989"
+  },
+  "titulo": "Crónicas de Ad",
+  "autor": "César Lara Mena",
+  "isbn": "978-1-171-64121-6",
+  "genero": "Ficción",
+  "añoPublicacion": 1995,
+  "ejemplaresDisponibles": 5,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c61598a"
+  },
+  "titulo": "El misterio de Neque",
+  "autor": "Adriana Páez Leyva",
+  "isbn": "978-1-5074-0714-1",
+  "genero": "Fantasía",
+  "añoPublicacion": 2017,
+  "ejemplaresDisponibles": 4,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c61598b"
+  },
+  "titulo": "Fundamentos de Curiositas",
+  "autor": "Marco Antonio Carbajal Balderas",
+  "isbn": "978-0-678-31100-4",
+  "genero": "Ciencia",
+  "añoPublicacion": 2004,
+  "ejemplaresDisponibles": 5,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c61598c"
+  },
+  "titulo": "Introducción a Facere",
+  "autor": "Gabriel Baca Ojeda",
+  "isbn": "978-0-388-19689-2",
+  "genero": "Historia",
+  "añoPublicacion": 2012,
+  "ejemplaresDisponibles": 9,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c61598d"
+  },
+  "titulo": "Introducción a Succurro",
+  "autor": "Patricia Montoya Ureña",
+  "isbn": "978-1-59467-170-8",
+  "genero": "Fantasía",
+  "añoPublicacion": 1992,
+  "ejemplaresDisponibles": 10,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c61598e"
+  },
+  "titulo": "La sombra de Beatae",
+  "autor": "Sta. Eva Corrales Saiz",
+  "isbn": "978-0-9527727-1-2",
+  "genero": "Ficción",
+  "añoPublicacion": 2010,
+  "ejemplaresDisponibles": 4,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c61598f"
+  },
+  "titulo": "Crónicas de Cedo",
+  "autor": "Emilia Almonte Barragán",
+  "isbn": "978-1-4394-0239-9",
+  "genero": "Tecnología",
+  "añoPublicacion": 1985,
+  "ejemplaresDisponibles": 1,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615990"
+  },
+  "titulo": "El secreto de Tollo",
+  "autor": "Susana Mata Portillo",
+  "isbn": "978-0-484-61159-6",
+  "genero": "Historia",
+  "añoPublicacion": 1980,
+  "ejemplaresDisponibles": 3,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615991"
+  },
+  "titulo": "Manual de Cui",
+  "autor": "Alfonso Bermúdez Otero",
+  "isbn": "978-1-043-83308-4",
+  "genero": "Biografía",
+  "añoPublicacion": 2010,
+  "ejemplaresDisponibles": 6,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615992"
+  },
+  "titulo": "Manual de Creptio",
+  "autor": "Adán Armijo Burgos",
+  "isbn": "978-1-9791-6776-5",
+  "genero": "Biografía",
+  "añoPublicacion": 2000,
+  "ejemplaresDisponibles": 2,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615993"
+  },
+  "titulo": "Crónicas de Vergo",
+  "autor": "Arturo Casas Castellanos",
+  "isbn": "978-0-03-232348-3",
+  "genero": "Biografía",
+  "añoPublicacion": 1978,
+  "ejemplaresDisponibles": 9,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615994"
+  },
+  "titulo": "El misterio de Defero",
+  "autor": "Jorge Luis Jáquez Sosa",
+  "isbn": "978-0-638-29410-1",
+  "genero": "Fantasía",
+  "añoPublicacion": 2021,
+  "ejemplaresDisponibles": 2,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615995"
+  },
+  "titulo": "La sombra de Xiphias",
+  "autor": "Guillermina Carrero Acosta",
+  "isbn": "978-0-7469-6549-8",
+  "genero": "Biografía",
+  "añoPublicacion": 1980,
+  "ejemplaresDisponibles": 4,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615996"
+  },
+  "titulo": "Crónicas de Decumbo",
+  "autor": "José Benavides Mora",
+  "isbn": "978-0-03-988998-2",
+  "genero": "Historia",
+  "añoPublicacion": 1980,
+  "ejemplaresDisponibles": 8,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615997"
+  },
+  "titulo": "La historia de Thorax",
+  "autor": "Carmen Ybarra Guerra",
+  "isbn": "978-0-7098-3419-9",
+  "genero": "Ficción",
+  "añoPublicacion": 2024,
+  "ejemplaresDisponibles": 8,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615998"
+  },
+  "titulo": "Introducción a Virga",
+  "autor": "Jacobo Delarosa Rendón",
+  "isbn": "978-1-314-24816-6",
+  "genero": "Tecnología",
+  "añoPublicacion": 1999,
+  "ejemplaresDisponibles": 4,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615999"
+  },
+  "titulo": "Fundamentos de Dedico",
+  "autor": "Magdalena Ferrer Colón",
+  "isbn": "978-0-04-770175-7",
+  "genero": "Tecnología",
+  "añoPublicacion": 2003,
+  "ejemplaresDisponibles": 5,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c61599a"
+  },
+  "titulo": "La sombra de Tunc",
+  "autor": "Gilberto Ávila Mascareñas",
+  "isbn": "978-0-06-373517-0",
+  "genero": "Biografía",
+  "añoPublicacion": 2022,
+  "ejemplaresDisponibles": 10,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c61599b"
+  },
+  "titulo": "Crónicas de Centum",
+  "autor": "Ignacio Zúñiga Solorio",
+  "isbn": "978-0-9636497-1-3",
+  "genero": "Tecnología",
+  "añoPublicacion": 2014,
+  "ejemplaresDisponibles": 9,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c61599c"
+  },
+  "titulo": "Introducción a Certus",
+  "autor": "Eduardo Delapaz Pagan",
+  "isbn": "978-1-272-81811-1",
+  "genero": "Ciencia",
+  "añoPublicacion": 1980,
+  "ejemplaresDisponibles": 6,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c61599d"
+  },
+  "titulo": "La historia de Vulnero",
+  "autor": "Patricio Espinoza Cedillo",
+  "isbn": "978-0-545-62374-2",
+  "genero": "Ficción",
+  "añoPublicacion": 2020,
+  "ejemplaresDisponibles": 1,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c61599e"
+  },
+  "titulo": "Crónicas de Conforto",
+  "autor": "Daniel Pacheco Madrid",
+  "isbn": "978-0-561-56206-3",
+  "genero": "Ciencia",
+  "añoPublicacion": 1995,
+  "ejemplaresDisponibles": 5,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c61599f"
+  },
+  "titulo": "La sombra de Tergum",
+  "autor": "Pedro Narváez Monroy",
+  "isbn": "978-1-0733-6158-8",
+  "genero": "Historia",
+  "añoPublicacion": 2015,
+  "ejemplaresDisponibles": 4,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c6159a0"
+  },
+  "titulo": "El misterio de Thalassinus",
+  "autor": "Laura Armendáriz Ponce",
+  "isbn": "978-1-64661-219-2",
+  "genero": "Fantasía",
+  "añoPublicacion": 1989,
+  "ejemplaresDisponibles": 6,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c6159a1"
+  },
+  "titulo": "La sombra de Antea",
+  "autor": "Barbara Quesada Sepúlveda",
+  "isbn": "978-1-60211-595-8",
+  "genero": "Historia",
+  "añoPublicacion": 2013,
+  "ejemplaresDisponibles": 8,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c6159a2"
+  },
+  "titulo": "La sombra de Confugo",
+  "autor": "Pedro Carmona Lebrón",
+  "isbn": "978-0-86178-513-1",
+  "genero": "Biografía",
+  "añoPublicacion": 2019,
+  "ejemplaresDisponibles": 9,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c6159a3"
+  },
+  "titulo": "El secreto de Nihil",
+  "autor": "Ester Lara Preciado",
+  "isbn": "978-0-941261-51-7",
+  "genero": "Biografía",
+  "añoPublicacion": 2014,
+  "ejemplaresDisponibles": 8,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c6159a4"
+  },
+  "titulo": "Crónicas de Calculus",
+  "autor": "Silvia Espinosa de los Monteros Salcedo",
+  "isbn": "978-1-211-93650-0",
+  "genero": "Tecnología",
+  "añoPublicacion": 2001,
+  "ejemplaresDisponibles": 6,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c6159a5"
+  },
+  "titulo": "Introducción a Vindico",
+  "autor": "Margarita Rico Saldivar",
+  "isbn": "978-0-18-933450-9",
+  "genero": "Fantasía",
+  "añoPublicacion": 1985,
+  "ejemplaresDisponibles": 10,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c6159a6"
+  },
+  "titulo": "Crónicas de Repellat",
+  "autor": "Anita Pizarro Bernal",
+  "isbn": "978-1-384-49306-0",
+  "genero": "Historia",
+  "añoPublicacion": 2011,
+  "ejemplaresDisponibles": 4,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c6159a7"
+  },
+  "titulo": "El secreto de Tabesco",
+  "autor": "Ignacio Delapaz Rosales",
+  "isbn": "978-0-321-45420-1",
+  "genero": "Ciencia",
+  "añoPublicacion": 2008,
+  "ejemplaresDisponibles": 1,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c6159a8"
+  },
+  "titulo": "Manual de Succedo",
+  "autor": "Sta. Anita Aponte Menéndez",
+  "isbn": "978-0-696-54113-1",
+  "genero": "Tecnología",
+  "añoPublicacion": 2009,
+  "ejemplaresDisponibles": 2,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c6159a9"
+  },
+  "titulo": "Fundamentos de Spes",
+  "autor": "Arturo Tovar Chapa",
+  "isbn": "978-1-289-63447-6",
+  "genero": "Biografía",
+  "añoPublicacion": 2004,
+  "ejemplaresDisponibles": 4,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c6159aa"
+  },
+  "titulo": "El secreto de Defluo",
+  "autor": "Pilar Rendón Colunga",
+  "isbn": "978-0-492-66990-9",
+  "genero": "Ciencia",
+  "añoPublicacion": 2009,
+  "ejemplaresDisponibles": 1,
+  "__v": 0
+}]

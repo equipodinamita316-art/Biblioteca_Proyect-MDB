@@ -1,0 +1,2433 @@
+[{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a23"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c61593f"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c615a16"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-05-25T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-06-08T06:00:00.000Z"
+  },
+  "estado": "Activo",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a24"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c615992"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c6159ef"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-05-10T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-05-24T06:00:00.000Z"
+  },
+  "fechaDevolucionReal": {
+    "$date": "2026-05-14T06:00:00.000Z"
+  },
+  "estado": "Devuelto",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a25"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c615946"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c6159f2"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-05-11T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-05-25T06:00:00.000Z"
+  },
+  "fechaDevolucionReal": {
+    "$date": "2026-05-22T06:00:00.000Z"
+  },
+  "estado": "Devuelto",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a26"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c61597c"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c6159ea"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-05-11T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-05-25T06:00:00.000Z"
+  },
+  "estado": "Atrasado",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a27"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c61598f"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c6159eb"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-05-01T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-05-15T06:00:00.000Z"
+  },
+  "fechaDevolucionReal": {
+    "$date": "2026-05-09T06:00:00.000Z"
+  },
+  "estado": "Devuelto",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a28"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c615988"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c6159ec"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-05-25T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-06-08T06:00:00.000Z"
+  },
+  "estado": "Activo",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a29"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c61595c"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c615a01"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-05-02T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-05-16T06:00:00.000Z"
+  },
+  "fechaDevolucionReal": {
+    "$date": "2026-05-03T06:00:00.000Z"
+  },
+  "estado": "Devuelto",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a2a"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c615988"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c6159da"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-06-01T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-06-15T06:00:00.000Z"
+  },
+  "estado": "Activo",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a2b"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c615973"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c6159c2"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-05-16T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-05-30T06:00:00.000Z"
+  },
+  "estado": "Atrasado",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a2c"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c61594d"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c615a01"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-04-22T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-05-06T06:00:00.000Z"
+  },
+  "estado": "Atrasado",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a2d"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c61594f"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c615a0a"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-04-20T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-05-04T06:00:00.000Z"
+  },
+  "estado": "Atrasado",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a2e"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c61596d"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c6159c2"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-05-05T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-05-19T06:00:00.000Z"
+  },
+  "fechaDevolucionReal": {
+    "$date": "2026-05-13T06:00:00.000Z"
+  },
+  "estado": "Devuelto",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a2f"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c61597b"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c6159e8"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-05-26T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-06-09T06:00:00.000Z"
+  },
+  "estado": "Activo",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a30"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c615947"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c6159d6"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-04-21T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-05-05T06:00:00.000Z"
+  },
+  "fechaDevolucionReal": {
+    "$date": "2026-05-03T06:00:00.000Z"
+  },
+  "estado": "Devuelto",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a31"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c615953"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c6159e4"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-05-08T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-05-22T06:00:00.000Z"
+  },
+  "estado": "Atrasado",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a32"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c61595f"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c6159cc"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-05-13T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-05-27T06:00:00.000Z"
+  },
+  "fechaDevolucionReal": {
+    "$date": "2026-05-25T06:00:00.000Z"
+  },
+  "estado": "Devuelto",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a33"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c61593c"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c6159cb"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-05-13T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-05-27T06:00:00.000Z"
+  },
+  "fechaDevolucionReal": {
+    "$date": "2026-05-26T06:00:00.000Z"
+  },
+  "estado": "Devuelto",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a34"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c6159a8"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c615a1a"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-04-22T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-05-06T06:00:00.000Z"
+  },
+  "fechaDevolucionReal": {
+    "$date": "2026-04-23T06:00:00.000Z"
+  },
+  "estado": "Devuelto",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a35"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c615955"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c615a20"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-05-04T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-05-18T06:00:00.000Z"
+  },
+  "estado": "Atrasado",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a36"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c61597f"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c615a07"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-05-31T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-06-14T06:00:00.000Z"
+  },
+  "estado": "Activo",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a37"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c61597c"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c615a00"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-05-16T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-05-30T06:00:00.000Z"
+  },
+  "fechaDevolucionReal": {
+    "$date": "2026-05-29T06:00:00.000Z"
+  },
+  "estado": "Devuelto",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a38"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c615943"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c6159bf"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-05-20T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-06-03T06:00:00.000Z"
+  },
+  "estado": "Activo",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a39"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c61597e"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c615a1a"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-04-28T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-05-12T06:00:00.000Z"
+  },
+  "fechaDevolucionReal": {
+    "$date": "2026-05-12T06:00:00.000Z"
+  },
+  "estado": "Devuelto",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a3a"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c615936"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c6159d0"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-05-18T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-06-01T06:00:00.000Z"
+  },
+  "estado": "Atrasado",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a3b"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c61598b"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c6159cb"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-05-05T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-05-19T06:00:00.000Z"
+  },
+  "fechaDevolucionReal": {
+    "$date": "2026-05-07T06:00:00.000Z"
+  },
+  "estado": "Devuelto",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a3c"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c615964"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c615a1b"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-05-11T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-05-25T06:00:00.000Z"
+  },
+  "fechaDevolucionReal": {
+    "$date": "2026-05-23T06:00:00.000Z"
+  },
+  "estado": "Devuelto",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a3d"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c615946"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c615a07"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-05-27T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-06-10T06:00:00.000Z"
+  },
+  "estado": "Activo",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a3e"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c615965"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c615a00"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-05-11T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-05-25T06:00:00.000Z"
+  },
+  "estado": "Atrasado",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a3f"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c615966"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c615a05"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-05-23T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-06-06T06:00:00.000Z"
+  },
+  "estado": "Activo",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a40"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c615961"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c6159ee"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-05-31T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-06-14T06:00:00.000Z"
+  },
+  "estado": "Activo",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a41"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c615996"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c615a1b"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-04-30T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-05-14T06:00:00.000Z"
+  },
+  "fechaDevolucionReal": {
+    "$date": "2026-05-11T06:00:00.000Z"
+  },
+  "estado": "Devuelto",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a42"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c615986"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c6159fb"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-05-08T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-05-22T06:00:00.000Z"
+  },
+  "fechaDevolucionReal": {
+    "$date": "2026-05-14T06:00:00.000Z"
+  },
+  "estado": "Devuelto",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a43"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c61594f"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c6159bf"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-05-15T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-05-29T06:00:00.000Z"
+  },
+  "fechaDevolucionReal": {
+    "$date": "2026-05-25T06:00:00.000Z"
+  },
+  "estado": "Devuelto",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a44"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c615987"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c615a05"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-05-18T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-06-01T06:00:00.000Z"
+  },
+  "fechaDevolucionReal": {
+    "$date": "2026-05-26T06:00:00.000Z"
+  },
+  "estado": "Devuelto",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a45"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c61593e"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c6159c0"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-06-01T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-06-15T06:00:00.000Z"
+  },
+  "estado": "Activo",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a46"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c61594b"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c615a1e"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-05-23T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-06-06T06:00:00.000Z"
+  },
+  "estado": "Activo",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a47"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c6159aa"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c6159fd"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-05-21T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-06-04T06:00:00.000Z"
+  },
+  "estado": "Activo",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a48"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c615940"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c615a0c"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-05-14T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-05-28T06:00:00.000Z"
+  },
+  "fechaDevolucionReal": {
+    "$date": "2026-05-28T06:00:00.000Z"
+  },
+  "estado": "Devuelto",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a49"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c615946"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c6159e0"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-04-28T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-05-12T06:00:00.000Z"
+  },
+  "estado": "Atrasado",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a4a"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c61594b"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c615a21"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-05-28T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-06-11T06:00:00.000Z"
+  },
+  "estado": "Activo",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a4b"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c6159a6"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c615a02"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-04-28T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-05-12T06:00:00.000Z"
+  },
+  "fechaDevolucionReal": {
+    "$date": "2026-05-07T06:00:00.000Z"
+  },
+  "estado": "Devuelto",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a4c"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c615962"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c6159b2"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-05-01T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-05-15T06:00:00.000Z"
+  },
+  "estado": "Atrasado",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a4d"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c615944"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c615a0e"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-05-09T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-05-23T06:00:00.000Z"
+  },
+  "estado": "Atrasado",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a4e"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c615985"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c615a1f"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-04-20T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-05-04T06:00:00.000Z"
+  },
+  "fechaDevolucionReal": {
+    "$date": "2026-04-29T06:00:00.000Z"
+  },
+  "estado": "Devuelto",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a4f"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c615956"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c6159e6"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-05-11T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-05-25T06:00:00.000Z"
+  },
+  "estado": "Atrasado",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a50"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c61597f"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c6159c8"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-04-25T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-05-09T06:00:00.000Z"
+  },
+  "estado": "Atrasado",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a51"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c615979"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c6159df"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-05-13T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-05-27T06:00:00.000Z"
+  },
+  "fechaDevolucionReal": {
+    "$date": "2026-05-14T06:00:00.000Z"
+  },
+  "estado": "Devuelto",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a52"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c615969"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c6159ee"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-05-14T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-05-28T06:00:00.000Z"
+  },
+  "fechaDevolucionReal": {
+    "$date": "2026-05-28T06:00:00.000Z"
+  },
+  "estado": "Devuelto",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a53"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c61599e"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c615a22"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-05-21T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-06-04T06:00:00.000Z"
+  },
+  "estado": "Activo",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a54"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c615968"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c6159b9"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-05-14T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-05-28T06:00:00.000Z"
+  },
+  "fechaDevolucionReal": {
+    "$date": "2026-05-18T06:00:00.000Z"
+  },
+  "estado": "Devuelto",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a55"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c61594c"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c615a11"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-04-29T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-05-13T06:00:00.000Z"
+  },
+  "fechaDevolucionReal": {
+    "$date": "2026-05-01T06:00:00.000Z"
+  },
+  "estado": "Devuelto",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a56"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c615960"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c6159cf"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-05-01T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-05-15T06:00:00.000Z"
+  },
+  "fechaDevolucionReal": {
+    "$date": "2026-05-07T06:00:00.000Z"
+  },
+  "estado": "Devuelto",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a57"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c61593b"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c6159d3"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-05-11T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-05-25T06:00:00.000Z"
+  },
+  "estado": "Atrasado",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a58"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c61593e"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c6159c5"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-04-22T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-05-06T06:00:00.000Z"
+  },
+  "fechaDevolucionReal": {
+    "$date": "2026-04-30T06:00:00.000Z"
+  },
+  "estado": "Devuelto",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a59"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c615992"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c6159c2"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-05-07T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-05-21T06:00:00.000Z"
+  },
+  "fechaDevolucionReal": {
+    "$date": "2026-05-19T06:00:00.000Z"
+  },
+  "estado": "Devuelto",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a5a"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c615953"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c6159b0"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-05-31T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-06-14T06:00:00.000Z"
+  },
+  "estado": "Activo",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a5b"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c615996"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c615a04"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-04-27T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-05-11T06:00:00.000Z"
+  },
+  "estado": "Atrasado",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a5c"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c61597a"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c615a1b"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-05-23T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-06-06T06:00:00.000Z"
+  },
+  "estado": "Activo",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a5d"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c61595b"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c6159d7"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-05-09T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-05-23T06:00:00.000Z"
+  },
+  "fechaDevolucionReal": {
+    "$date": "2026-05-21T06:00:00.000Z"
+  },
+  "estado": "Devuelto",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a5e"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c6159a0"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c615a03"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-04-20T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-05-04T06:00:00.000Z"
+  },
+  "fechaDevolucionReal": {
+    "$date": "2026-04-26T06:00:00.000Z"
+  },
+  "estado": "Devuelto",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a5f"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c615999"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c615a12"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-05-21T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-06-04T06:00:00.000Z"
+  },
+  "estado": "Activo",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a60"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c615957"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c6159be"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-05-13T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-05-27T06:00:00.000Z"
+  },
+  "fechaDevolucionReal": {
+    "$date": "2026-05-21T06:00:00.000Z"
+  },
+  "estado": "Devuelto",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a61"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c615964"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c615a1f"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-05-21T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-06-04T06:00:00.000Z"
+  },
+  "estado": "Activo",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a62"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c615956"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c6159ac"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-04-20T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-05-04T06:00:00.000Z"
+  },
+  "fechaDevolucionReal": {
+    "$date": "2026-05-04T06:00:00.000Z"
+  },
+  "estado": "Devuelto",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a63"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c61595a"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c6159d0"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-05-25T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-06-08T06:00:00.000Z"
+  },
+  "estado": "Activo",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a64"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c615946"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c615a18"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-04-22T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-05-06T06:00:00.000Z"
+  },
+  "fechaDevolucionReal": {
+    "$date": "2026-04-28T06:00:00.000Z"
+  },
+  "estado": "Devuelto",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a65"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c615986"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c615a0a"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-04-29T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-05-13T06:00:00.000Z"
+  },
+  "estado": "Atrasado",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a66"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c61593e"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c615a1c"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-05-22T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-06-05T06:00:00.000Z"
+  },
+  "estado": "Activo",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a67"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c615935"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c615a0b"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-05-31T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-06-14T06:00:00.000Z"
+  },
+  "estado": "Activo",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a68"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c6159a1"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c6159d9"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-05-14T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-05-28T06:00:00.000Z"
+  },
+  "estado": "Atrasado",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a69"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c615988"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c6159ae"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-05-11T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-05-25T06:00:00.000Z"
+  },
+  "estado": "Atrasado",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a6a"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c61598f"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c6159d0"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-04-30T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-05-14T06:00:00.000Z"
+  },
+  "estado": "Atrasado",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a6b"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c615978"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c615a05"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-05-19T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-06-02T06:00:00.000Z"
+  },
+  "fechaDevolucionReal": {
+    "$date": "2026-06-02T06:00:00.000Z"
+  },
+  "estado": "Devuelto",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a6c"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c61599b"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c615a0f"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-05-31T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-06-14T06:00:00.000Z"
+  },
+  "estado": "Activo",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a6d"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c61593b"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c6159c1"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-05-19T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-06-02T06:00:00.000Z"
+  },
+  "fechaDevolucionReal": {
+    "$date": "2026-05-31T06:00:00.000Z"
+  },
+  "estado": "Devuelto",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a6e"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c6159a1"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c6159b4"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-04-24T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-05-08T06:00:00.000Z"
+  },
+  "estado": "Atrasado",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a6f"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c61598b"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c6159d2"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-05-04T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-05-18T06:00:00.000Z"
+  },
+  "fechaDevolucionReal": {
+    "$date": "2026-05-10T06:00:00.000Z"
+  },
+  "estado": "Devuelto",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a70"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c615966"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c6159bb"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-05-01T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-05-15T06:00:00.000Z"
+  },
+  "fechaDevolucionReal": {
+    "$date": "2026-05-06T06:00:00.000Z"
+  },
+  "estado": "Devuelto",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a71"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c615964"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c615a0a"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-05-15T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-05-29T06:00:00.000Z"
+  },
+  "estado": "Atrasado",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a72"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c61594f"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c615a16"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-05-11T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-05-25T06:00:00.000Z"
+  },
+  "estado": "Atrasado",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a73"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c61594f"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c615a0e"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-05-01T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-05-15T06:00:00.000Z"
+  },
+  "estado": "Atrasado",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a74"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c61598c"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c6159ca"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-05-20T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-06-03T06:00:00.000Z"
+  },
+  "estado": "Activo",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a75"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c615958"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c615a21"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-05-03T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-05-17T06:00:00.000Z"
+  },
+  "estado": "Atrasado",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a76"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c615982"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c6159b5"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-05-11T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-05-25T06:00:00.000Z"
+  },
+  "estado": "Atrasado",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a77"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c61598d"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c6159c1"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-05-23T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-06-06T06:00:00.000Z"
+  },
+  "estado": "Activo",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a78"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c61594e"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c6159e2"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-04-24T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-05-08T06:00:00.000Z"
+  },
+  "estado": "Atrasado",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a79"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c615954"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c615a07"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-05-12T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-05-26T06:00:00.000Z"
+  },
+  "estado": "Atrasado",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a7a"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c61599f"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c6159b5"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-05-17T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-05-31T06:00:00.000Z"
+  },
+  "estado": "Atrasado",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a7b"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c615944"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c6159c5"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-05-01T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-05-15T06:00:00.000Z"
+  },
+  "estado": "Atrasado",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a7c"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c615970"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c6159bd"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-04-20T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-05-04T06:00:00.000Z"
+  },
+  "fechaDevolucionReal": {
+    "$date": "2026-04-29T06:00:00.000Z"
+  },
+  "estado": "Devuelto",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a7d"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c615950"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c615a05"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-04-21T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-05-05T06:00:00.000Z"
+  },
+  "estado": "Atrasado",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a7e"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c6159aa"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c6159eb"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-04-26T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-05-10T06:00:00.000Z"
+  },
+  "estado": "Atrasado",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a7f"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c615992"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c6159f0"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-05-18T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-06-01T06:00:00.000Z"
+  },
+  "fechaDevolucionReal": {
+    "$date": "2026-05-30T06:00:00.000Z"
+  },
+  "estado": "Devuelto",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a80"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c615962"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c615a1d"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-05-18T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-06-01T06:00:00.000Z"
+  },
+  "estado": "Atrasado",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a81"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c6159a1"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c6159f5"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-05-08T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-05-22T06:00:00.000Z"
+  },
+  "estado": "Atrasado",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a82"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c615966"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c615a04"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-05-22T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-06-05T06:00:00.000Z"
+  },
+  "estado": "Activo",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a83"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c615942"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c615a06"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-04-27T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-05-11T06:00:00.000Z"
+  },
+  "fechaDevolucionReal": {
+    "$date": "2026-05-06T06:00:00.000Z"
+  },
+  "estado": "Devuelto",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a84"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c615956"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c615a19"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-04-21T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-05-05T06:00:00.000Z"
+  },
+  "fechaDevolucionReal": {
+    "$date": "2026-04-30T06:00:00.000Z"
+  },
+  "estado": "Devuelto",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a85"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c61593e"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c615a12"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-04-27T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-05-11T06:00:00.000Z"
+  },
+  "fechaDevolucionReal": {
+    "$date": "2026-05-10T06:00:00.000Z"
+  },
+  "estado": "Devuelto",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a86"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c615979"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c6159ad"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-05-01T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-05-15T06:00:00.000Z"
+  },
+  "fechaDevolucionReal": {
+    "$date": "2026-05-05T06:00:00.000Z"
+  },
+  "estado": "Devuelto",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a87"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c6159a4"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c6159be"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-05-13T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-05-27T06:00:00.000Z"
+  },
+  "fechaDevolucionReal": {
+    "$date": "2026-05-26T06:00:00.000Z"
+  },
+  "estado": "Devuelto",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a88"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c615967"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c6159c3"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-05-28T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-06-11T06:00:00.000Z"
+  },
+  "estado": "Activo",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a89"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c6159a9"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c6159ec"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-05-23T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-06-06T06:00:00.000Z"
+  },
+  "estado": "Activo",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a8a"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c61597f"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c6159b1"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-05-31T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-06-14T06:00:00.000Z"
+  },
+  "estado": "Activo",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a8b"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c615992"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c6159ac"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-04-25T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-05-09T06:00:00.000Z"
+  },
+  "fechaDevolucionReal": {
+    "$date": "2026-04-29T06:00:00.000Z"
+  },
+  "estado": "Devuelto",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a8c"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c61597c"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c615a09"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-04-28T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-05-12T06:00:00.000Z"
+  },
+  "fechaDevolucionReal": {
+    "$date": "2026-05-10T06:00:00.000Z"
+  },
+  "estado": "Devuelto",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a8d"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c615979"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c6159f0"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-05-28T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-06-11T06:00:00.000Z"
+  },
+  "estado": "Activo",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a8e"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c615981"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c6159f0"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-05-06T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-05-20T06:00:00.000Z"
+  },
+  "fechaDevolucionReal": {
+    "$date": "2026-05-17T06:00:00.000Z"
+  },
+  "estado": "Devuelto",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a8f"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c61595c"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c6159dd"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-05-03T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-05-17T06:00:00.000Z"
+  },
+  "estado": "Atrasado",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a90"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c615970"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c615a1c"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-05-16T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-05-30T06:00:00.000Z"
+  },
+  "fechaDevolucionReal": {
+    "$date": "2026-05-30T06:00:00.000Z"
+  },
+  "estado": "Devuelto",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a91"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c61599c"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c6159bb"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-05-22T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-06-05T06:00:00.000Z"
+  },
+  "estado": "Activo",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a92"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c61595c"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c6159dd"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-05-24T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-06-07T06:00:00.000Z"
+  },
+  "estado": "Activo",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a93"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c61593a"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c6159b8"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-05-31T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-06-14T06:00:00.000Z"
+  },
+  "estado": "Activo",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a94"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c6159a5"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c615a18"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-05-08T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-05-22T06:00:00.000Z"
+  },
+  "fechaDevolucionReal": {
+    "$date": "2026-05-14T06:00:00.000Z"
+  },
+  "estado": "Devuelto",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a95"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c6159a8"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c6159cb"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-05-09T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-05-23T06:00:00.000Z"
+  },
+  "estado": "Atrasado",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a96"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c61593f"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c615a19"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-04-27T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-05-11T06:00:00.000Z"
+  },
+  "fechaDevolucionReal": {
+    "$date": "2026-05-07T06:00:00.000Z"
+  },
+  "estado": "Devuelto",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a97"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c61596f"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c6159ac"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-05-17T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-05-31T06:00:00.000Z"
+  },
+  "estado": "Atrasado",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a98"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c61598c"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c6159df"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-04-28T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-05-12T06:00:00.000Z"
+  },
+  "fechaDevolucionReal": {
+    "$date": "2026-05-09T06:00:00.000Z"
+  },
+  "estado": "Devuelto",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a99"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c615968"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c6159f8"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-05-01T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-05-15T06:00:00.000Z"
+  },
+  "fechaDevolucionReal": {
+    "$date": "2026-05-08T06:00:00.000Z"
+  },
+  "estado": "Devuelto",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a20ba0a903f64e22c615a9a"
+  },
+  "libro": {
+    "$oid": "6a20ba0a903f64e22c615999"
+  },
+  "usuario": {
+    "$oid": "6a20ba0a903f64e22c615a20"
+  },
+  "fechaPrestamo": {
+    "$date": "2026-04-29T06:00:00.000Z"
+  },
+  "fechaDevolucion": {
+    "$date": "2026-05-13T06:00:00.000Z"
+  },
+  "estado": "Atrasado",
+  "__v": 0
+}]
